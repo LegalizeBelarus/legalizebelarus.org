@@ -1,0 +1,298 @@
+/*
+Theme Name: Legalize Belarus
+Theme URI: https://legalizebelarus.org/
+Description: Legalize Belarus Wordpress theme
+Author: Piotr Markielau
+Author URI: mailto:pmarkielau@gmail.com
+Version: 1.0
+Text Domain: legalizebelarus
+Domain Path: /languages
+*/
+
+.fb_iframe_widget_fluid_desktop, .fb_iframe_widget_fluid_desktop span, .fb_iframe_widget_fluid_desktop iframe {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+.video_wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+}
+
+
+.si {
+    max-width: 128px;
+}
+
+.si2 {
+    max-width: 60px;
+    margin-right: 5px;
+    margin-left: 5px;
+    transition: all 0.05s;
+}
+
+.si2:hover, .si2:focus {
+    filter: drop-shadow(0px 0px 2px #000000);
+}
+
+
+.text-shadow {
+    text-shadow: 0px 0px 4px #000000;
+}
+
+
+.post_thumbnail {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+
+.video_wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 0px;
+}
+
+iframe {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    min-height: 400px;
+}
+
+.wp-block-image img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+	width: 100%;
+	height: auto;
+}
+
+div.fb-comments iframe {
+    min-height: 0px;
+    width: 100%;
+}
+
+
+.dot {
+    height: 7px;
+    width: 7px;
+    background: black;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.views_container {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+}
+
+
+#logoholder {
+    transform: rotate(357deg);
+}
+
+#brandholder:focus {
+    text-decoration: none !important;
+}
+
+.nav-link {
+    background: linear-gradient(135deg, rgb(229, 27, 77), rgb(62, 2, 166));
+    color: #f8f9fa !important;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: none;
+    padding: 5px;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    cursor: pointer;
+    margin: 10px;
+    transition: all 0.05s;
+    font-weight: 600;
+}
+
+.lead-bold {
+    font-weight: 600;
+}
+
+
+.nav-link:focus, .nav-link:hover {
+    text-decoration: none;
+    box-shadow: 0 0 4px rgb(0, 0, 0);
+}
+
+
+.shadow:hover, .shadow:focus {
+    box-shadow: 0 0 4px rgb(0, 0, 0);
+}
+
+
+.card:hover, .card:focus {
+    box-shadow: 0 0 4px rgb(0, 0, 0);
+}
+
+.bshadow {
+    border: 1px solid #dee2e6 !important
+}
+
+
+.bshadow:hover, .bshadow:focus {
+    box-shadow: 0 0 4px rgb(0, 0, 0);
+}
+
+.nav-link.active {
+    background: none;
+    color: #343a40 !important;
+    box-shadow: 0 0 4px rgb(0, 0, 0);
+    pointer-events: none;
+}
+
+.page-numbers {
+    background: linear-gradient(135deg, rgb(229, 27, 77), rgb(62, 2, 166));
+    color: #f8f9fa !important;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: none;
+    padding: 5px;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    cursor: pointer;
+    margin-right: 3px;
+    transition: all 0.05s;
+}
+
+.page-numbers:focus, .page-numbers:hover {
+    text-decoration: none;
+    box-shadow: 0 0 4px rgb(0, 0, 0);
+}
+
+.page-numbers.current, .page-numbers.dots  {
+    background: none;
+    color: #343a40 !important;
+    text-decoration: none;
+    box-shadow: 0 0 4px rgb(0, 0, 0);
+    cursor: auto;
+}
+
+.post_wrapper {
+    position: relative;
+    padding-bottom: 100%;
+    overflow: hidden;
+}
+
+.news_wrapper {
+    position: relative;
+    overflow: hidden;
+    min-height: 200px;
+}
+
+.jumbo_wrapper {
+    position: relative;
+    max-height: 300px;
+    overflow: hidden;
+}
+
+
+.img_holder {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.2s;
+}
+
+.post-container {
+    transition: all 0.2s;
+    border-radius: .25rem;
+}
+
+.rad-b {
+    border-radius: 0 0 .25rem .25rem;
+}
+
+.rad-l {
+    border-radius: .25rem .25rem 0 0;
+}
+
+@media (min-width: 992px) {
+    .rad-l {
+        border-radius: .25rem 0 0 .25rem;
+    }
+}
+
+.post-container:hover, .post-container:focus {
+    box-shadow: 0 0 4px rgb(0, 0, 0);
+}
+
+.menu-item {
+    width: 100%;
+}
+
+.rad {
+    border-radius: .25rem;
+}
+
+
+.no-dec:hover, .no-dec:focus {
+    text-decoration: none;
+}
+
+body {
+    background-image: linear-gradient(135deg, rgb(229, 27, 77), rgb(62, 2, 166));
+    min-height: 100vh;
+}
+
+.cont {
+    border-radius: 0 0 .25rem .25rem;
+}
+
+.jumbotron {
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+}
+
+.grad {
+    background-image: linear-gradient(135deg, rgb(229, 27, 77), rgb(62, 2, 166));
+}
+
+strong {
+	font-weight: 700 !important;
+}
+
+.square {
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+}
+
+.all_news:hover {
+	transform: scale(1.05);
+}
+
