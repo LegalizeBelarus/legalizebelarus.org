@@ -304,7 +304,7 @@
             </div>
 
             <div class="container pb-4 text-center">
-                <p class="display-4">🔗 Мы в социальных сетях</p>
+                <p class="display-4">🔗 Оставайтесь на связи с сообществом</p>
             </div>
 
             <div class="container text-center pb-3">

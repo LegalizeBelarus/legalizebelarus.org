@@ -303,7 +303,7 @@
             </div>
 
             <div class="container pb-4 text-center">
-                <p class="display-4">🔗 Legalize Belarus in social media</p>
+                <p class="display-4">🔗 Keep connected with the community</p>
             </div>
 
             <div class="container text-center pb-3">
