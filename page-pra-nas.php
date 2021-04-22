@@ -289,7 +289,7 @@
                 </div>
 
                 <div class="col-6 col-md-3 mb-3">
-                    <a target="_blank" class="no-dec text-white" href="https://xn--80aijnem6h.xn--90ais/#/">
+                    <a target="_blank" class="no-dec text-white" href="http://moladz-bel.info/">
                         <img class="img-fluid rad bshadow"
                              src="<?php bloginfo('template_url'); ?>/images/partners/YouthBloc.jpg">
                     </a>
