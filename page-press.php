@@ -86,7 +86,7 @@
         'show_all' => false,
         'type' => 'plain',
         'end_size' => 2,
-        'mid_size' => 1,
+        'mid_size' => 3,
         'prev_next' => true,
         'prev_text' => '←',
         'next_text' => '→',
