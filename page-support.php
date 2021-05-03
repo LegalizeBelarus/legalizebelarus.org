@@ -32,6 +32,18 @@
             </div>
 
             <div class="container pb-3 text-center">
+                <p class="display-4">One-time donation</p>
+            </div>
+
+            <div class="container">
+                <p>Make a one-time donation with a card. Payments are processed by Stripe.</p>
+            </div>
+
+            <div class="container pb-5 text-center">
+                <div class="btn btn-lg btn-dark asp-attach-product-8034">Make a donation</div>
+            </div>
+
+            <div class="container pb-3 text-center">
                 <p class="display-4">Monthly donations</p>
             </div>
 
@@ -44,18 +56,6 @@
                 <a target="_blank" href="https://www.patreon.com/LegalizeBelarus">
                     <div class="btn btn-lg btn-dark">🔗 Become a patron</div>
                 </a>
-            </div>
-
-            <div class="container pb-3 text-center">
-                <p class="display-4">One-time donation</p>
-            </div>
-
-            <div class="container">
-                <p>Make a one-time donation with a card. Payments are processed by Stripe.</p>
-            </div>
-
-            <div class="container pb-5 text-center">
-                <div class="btn btn-lg btn-dark asp-attach-product-8034">Внести пожертвование</div>
             </div>
 
             <div class="container">

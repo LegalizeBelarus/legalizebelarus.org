@@ -30,6 +30,19 @@
                 </ul>
             </div>
 
+            <div class="container pb-3 text-center">
+                <p class="display-4">Единовременное пожертвование</p>
+            </div>
+
+            <div class="container">
+                <p>Совершите единовременное пожертвование с банковской карты. Платежи обрабатываются с помощью платежной
+                    системы Stripe.</p>
+            </div>
+
+            <div class="container pb-5 text-center">
+                <div class="btn btn-lg btn-dark asp-attach-product-9027">Внести пожертвование</div>
+            </div>
+
 
             <div class="container pb-3 text-center">
                 <p class="display-4">Ежемесячные пожертвования</p>
@@ -44,19 +57,6 @@
                 <a target="_blank" href="https://www.patreon.com/LegalizeBelarus">
                     <div class="btn btn-lg btn-dark">🔗 Стать патроном</div>
                 </a>
-            </div>
-
-            <div class="container pb-3 text-center">
-                <p class="display-4">Единовременное пожертвование</p>
-            </div>
-
-            <div class="container">
-                <p>Совершите единовременное пожертвование с банковской карты. Платежи обрабатываются с помощью платежной
-                    системы Stripe.</p>
-            </div>
-
-            <div class="container pb-5 text-center">
-                <div class="btn btn-lg btn-dark asp-attach-product-9027">Внести пожертвование</div>
             </div>
 
             <div class="container">
