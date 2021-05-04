@@ -12,7 +12,7 @@
 
             <div class="video_wrapper">
 
-                <iframe src="https://www.youtube.com/embed/kRqZWLy0e48" frameborder="0"
+                <iframe src="https://www.youtube.com/embed/lqA6Zf8PkQM" frameborder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
 
