@@ -138,11 +138,9 @@ div.fb-comments iframe {
     box-shadow: 0 0 4px rgb(0, 0, 0);
 }
 
-
 .shadow:hover, .shadow:focus {
     box-shadow: 0 0 4px rgb(0, 0, 0);
 }
-
 
 .card:hover, .card:focus {
     box-shadow: 0 0 4px rgb(0, 0, 0);
@@ -151,7 +149,6 @@ div.fb-comments iframe {
 .bshadow {
     border: 1px solid #dee2e6 !important
 }
-
 
 .bshadow:hover, .bshadow:focus {
     box-shadow: 0 0 4px rgb(0, 0, 0);
@@ -296,3 +293,14 @@ strong {
 	transform: scale(1.05);
 }
 
+.menu-item:nth-last-child(2) > .nav-link {
+    background: #292b2c;
+    box-shadow: 0 0 12px rgb(0, 0, 0);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.menu-item:nth-last-child(2) > .nav-link:focus, .menu-item:nth-last-child(2) > .nav-link:hover {
+    text-decoration: none;
+    box-shadow: 0 0 8px rgb(0, 0, 0);
+}
