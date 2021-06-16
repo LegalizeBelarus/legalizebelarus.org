@@ -182,12 +182,12 @@ div.fb-comments iframe {
     border-radius: .25rem;
     cursor: pointer;
     margin-right: 3px;
-    transition: all 0.05s;
+    transition: all 0.2s;
 }
 
 .page-numbers:focus, .page-numbers:hover {
     text-decoration: none;
-    box-shadow: 0 0 4px rgb(0, 0, 0);
+    box-shadow: none;
 }
 
 .page-numbers.current, .page-numbers.dots  {

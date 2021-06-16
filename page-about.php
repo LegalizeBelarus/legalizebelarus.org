@@ -288,6 +288,13 @@
                 </div>
 
                 <div class="col-6 col-md-3 mb-3">
+                    <a target="_blank" class="no-dec text-white" href="https://paradigmacoalition.com/">
+                        <img class="img-fluid rad bshadow"
+                             src="<?php bloginfo('template_url'); ?>/images/partners/ParadigmaCoalition.jpg">
+                    </a>
+                </div>
+
+                <div class="col-6 col-md-3 mb-3">
                     <a target="_blank" class="no-dec text-white" href="http://moladz-bel.info/">
                         <img class="img-fluid rad bshadow"
                              src="<?php bloginfo('template_url'); ?>/images/partners/YouthBloc.jpg">
