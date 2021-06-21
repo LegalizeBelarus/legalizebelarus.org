@@ -3,8 +3,9 @@
 <?php get_header(); ?>
 
 <div class="container bg-light px-0 pb-4 pt-4 cont">
-    <div class="jumbotron d-flex flex-column jumbotron-fluid justify-content-center align-items-center" style="background-image: linear-gradient(135deg, rgba(229, 27, 77, 0.5), rgba(62, 2, 166, 0.5)),
-                             url(<?php bloginfo('template_url'); ?>/images/forestaction.jpg);">
+    <div class="jumbotron d-flex flex-column jumbotron-fluid justify-content-center align-items-center"
+         style="background-image: linear-gradient(135deg, rgba(229, 27, 77, 0.5), rgba(62, 2, 166, 0.5)),
+                 url(<?php bloginfo('template_url'); ?>/images/forestaction.jpg);">
         <p class="display-4 text-light text-shadow">Поддержите нас!</p>
     </div>
 </div>
@@ -61,7 +62,9 @@
 
             <div class="container">
                 <p>Мы также принимаем Bitcoin. Наш кошелек: <a target="_blank"
-                                                               href="bitcoin:3Bo4a5STRFx4gYFVFqCzkMzVDEdnocrwXc">3Bo4a5STRFx4gY<wbr>FVFqCzkMzVDEdnocrwXc</a>
+                                                               href="bitcoin:3Bo4a5STRFx4gYFVFqCzkMzVDEdnocrwXc">3Bo4a5STRFx4gY
+                        <wbr>
+                        FVFqCzkMzVDEdnocrwXc</a>
                 </p>
             </div>
 

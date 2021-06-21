@@ -12,8 +12,7 @@
                 <input type="search" class="form-control"
                        placeholder="<?php _e('Search query', 'legalizebelarus'); ?>"
                        value="<?php echo get_search_query() ?>" name="s"
-                       title="<?php echo esc_attr_x( 'Search for:', 'label' ) ?>"/>
-
+                       title="<?php echo esc_attr_x('Search for:', 'label') ?>"/>
             </form>
 
         </div>

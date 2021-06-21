@@ -192,20 +192,26 @@
             </div>
 
             <div class="container bg-light pb-4 text-center">
-                <p class="display-4">🔗 Мы в социальных сетях</p>
+                <p class="display-4">🔗 Ссылки</p>
             </div>
 
             <div class="container text-center pb-3">
                 <a target="_blank" href="https://facebook.com/LegalizeBelarus"><img class="si2"
-                                                                                    src="<?php bloginfo('template_url'); ?>/images/facebook.png"></a>
+                                                                                    src="<?php bloginfo('template_url'); ?>/images/links/facebook.png"></a>
                 <a target="_blank" href="https://vk.com/legalizebelarus"><img class="si2"
-                                                                              src="<?php bloginfo('template_url'); ?>/images/vk.png"></a>
+                                                                              src="<?php bloginfo('template_url'); ?>/images/links/vk.png"></a>
                 <a target="_blank" href="https://instagram.com/legalizebelarus"><img class="si2"
-                                                                                     src="<?php bloginfo('template_url'); ?>/images/instagram.png"></a>
+                                                                                     src="<?php bloginfo('template_url'); ?>/images/links/instagram.png"></a>
                 <a target="_blank" href="https://www.youtube.com/channel/UCFwygSKPi82hIlOVCF-2elg"><img class="si2"
-                                                                                                        src="<?php bloginfo('template_url'); ?>/images/youtube.png"></a>
+                                                                                                        src="<?php bloginfo('template_url'); ?>/images/links/youtube.png"></a>
                 <a target="_blank" href="https://t.me/LegalizeBelarus"><img class="si2"
-                                                                            src="<?php bloginfo('template_url'); ?>/images/telegram.png"></a>
+                                                                            src="<?php bloginfo('template_url'); ?>/images/links/telegram.png"></a>
+                <a target="_blank" href="https://www.patreon.com/LegalizeBelarus"><img class="si2"
+                                                                                       src="<?php bloginfo('template_url'); ?>/images/links/patreon.png"></a>
+                <a target="_blank" href="https://github.com/LegalizeBelarus"><img class="si2"
+                                                                                  src="<?php bloginfo('template_url'); ?>/images/links/github.png"></a>
+                <a target="_blank" href="https://rarible.com/legalizebelarus"><img class="si2"
+                                                                                   src="<?php bloginfo('template_url'); ?>/images/links/rarible.png"></a>
             </div>
 
             <script>

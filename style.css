@@ -26,8 +26,7 @@ Domain Path: /languages
 
 .si2 {
     max-width: 60px;
-    margin-right: 5px;
-    margin-left: 5px;
+    margin: 5px;
     transition: all 0.05s;
 }
 
@@ -70,8 +69,8 @@ iframe {
 .wp-block-image img {
     margin-top: 10px;
     margin-bottom: 10px;
-	width: 100%;
-	height: auto;
+    width: 100%;
+    height: auto;
 }
 
 div.fb-comments iframe {
@@ -187,7 +186,7 @@ div.fb-comments iframe {
     box-shadow: none;
 }
 
-.page-numbers.current, .page-numbers.dots  {
+.page-numbers.current, .page-numbers.dots {
     background: none;
     color: #343a40 !important;
     text-decoration: none;
@@ -280,7 +279,7 @@ body {
 }
 
 strong {
-	font-weight: 700 !important;
+    font-weight: 700 !important;
 }
 
 .square {
@@ -290,7 +289,7 @@ strong {
 }
 
 .all_news:hover {
-	transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 .menu-item:nth-last-child(2) > .nav-link {
