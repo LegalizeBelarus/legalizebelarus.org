@@ -309,6 +309,13 @@
                     </a>
                 </div>
 
+                <div class="col-6 col-md-3 mb-3">
+                    <a target="_blank" class="no-dec text-white" href="https://sin.org.pl/">
+                        <img class="img-fluid rad bshadow"
+                             src="<?php bloginfo('template_url'); ?>/images/partners/sin.jpg">
+                    </a>
+                </div>
+
             </div>
 
             <div class="container pb-4 text-center">
