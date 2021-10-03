@@ -114,17 +114,6 @@
                     </div>
 
                 </div>
-
-                <div class="row">
-
-                    <div class="col-md-9">
-                        <div class="fb-comments mt-4"
-                             data-href="<?php echo the_permalink(); ?>"
-                             data-numposts="5" data-width="100%">
-                        </div>
-                    </div>
-
-                </div>
             </div>
 
 

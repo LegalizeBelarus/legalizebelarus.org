@@ -23,11 +23,6 @@
 <body
         <?php body_class(); ?>>
 
-<div id="fb-root"></div>
-<script async defer crossorigin="anonymous"
-        src="https://connect.facebook.net/<?php echo get_locale() ?>/sdk.js#xfbml=1&autoLogAppEvents=1&version=v7.0&appId=123410961684312"
-        nonce="pRyKh7OO"></script>
-
 <div class="container bg-light px-0 px-md-5">
 
 
