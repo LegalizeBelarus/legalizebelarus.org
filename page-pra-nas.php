@@ -140,29 +140,29 @@
                     </a>
                 </div>
 
-                <div class="col-6 col-md-4 col-lg-3 mb-3">
-                    <a target="_blank" class="no-dec text-dark" href="https://facebook.com/meequz">
-                        <div class="card">
-                            <img src="<?php bloginfo('template_url'); ?>/images/team/Michas.jpg" class="card-img-top">
-                            <div class="card-body rad-b">
-                                <h5 class="card-title">Михаил Воронцов</h5>
-                                <p class="card-text font-weight-normal">IT и исследования</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
+<!--                <div class="col-6 col-md-4 col-lg-3 mb-3">-->
+<!--                    <a target="_blank" class="no-dec text-dark" href="https://facebook.com/meequz">-->
+<!--                        <div class="card">-->
+<!--                            <img src="--><?php //bloginfo('template_url'); ?><!--/images/team/Michas.jpg" class="card-img-top">-->
+<!--                            <div class="card-body rad-b">-->
+<!--                                <h5 class="card-title">Михаил Воронцов</h5>-->
+<!--                                <p class="card-text font-weight-normal">IT и исследования</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </a>-->
+<!--                </div>-->
 
-                <div class="col-6 col-md-4 col-lg-3 mb-3">
-                    <a target="_blank" class="no-dec text-dark" href="https://facebook.com/nikita.logovoy">
-                        <div class="card">
-                            <img src="<?php bloginfo('template_url'); ?>/images/team/Mikita.jpg" class="card-img-top">
-                            <div class="card-body rad-b">
-                                <h5 class="card-title">Никита Логовой</h5>
-                                <p class="card-text font-weight-normal">Директор по развитию</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
+<!--                <div class="col-6 col-md-4 col-lg-3 mb-3">-->
+<!--                    <a target="_blank" class="no-dec text-dark" href="https://facebook.com/nikita.logovoy">-->
+<!--                        <div class="card">-->
+<!--                            <img src="--><?php //bloginfo('template_url'); ?><!--/images/team/Mikita.jpg" class="card-img-top">-->
+<!--                            <div class="card-body rad-b">-->
+<!--                                <h5 class="card-title">Никита Логовой</h5>-->
+<!--                                <p class="card-text font-weight-normal">Директор по развитию</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </a>-->
+<!--                </div>-->
 
                 <div class="col-6 col-md-4 col-lg-3 mb-3">
                     <a target="_blank" class="no-dec text-dark" href="https://facebook.com/ksusha.tarasevich">
@@ -176,17 +176,17 @@
                     </a>
                 </div>
 
-                <div class="col-6 col-md-4 col-lg-3 mb-3">
-                    <a target="_blank" class="no-dec text-dark" href="https://facebook.com/jahor.viniacki">
-                        <div class="card">
-                            <img src="<?php bloginfo('template_url'); ?>/images/team/Jahor.jpg" class="card-img-top">
-                            <div class="card-body rad-b">
-                                <h5 class="card-title">Егор Виняцкий</h5>
-                                <p class="card-text font-weight-normal">Основатель</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
+<!--                <div class="col-6 col-md-4 col-lg-3 mb-3">-->
+<!--                    <a target="_blank" class="no-dec text-dark" href="https://facebook.com/jahor.viniacki">-->
+<!--                        <div class="card">-->
+<!--                            <img src="--><?php //bloginfo('template_url'); ?><!--/images/team/Jahor.jpg" class="card-img-top">-->
+<!--                            <div class="card-body rad-b">-->
+<!--                                <h5 class="card-title">Егор Виняцкий</h5>-->
+<!--                                <p class="card-text font-weight-normal">Основатель</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </a>-->
+<!--                </div>-->
 
 
                 <div class="col-6 col-md-4 col-lg-3 mb-3">
