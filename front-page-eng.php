@@ -7,7 +7,7 @@
         <section>
 
             <div class="container pb-4 px-3 text-center">
-                <p class="display-4">Legalize Belarus — it's about people.</p>
+                <p class="display-4">Legalize Belarus is about the people</p>
             </div>
 
             <div class="video_wrapper">
