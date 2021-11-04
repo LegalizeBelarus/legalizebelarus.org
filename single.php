@@ -35,8 +35,8 @@
                                 'style' => 'max-width:100%;height:100%;width:100%;min-height:100%;object-fit:cover;'
                         );
 
-                        $display_thumbnail = get_post_meta(get_the_ID(), 'display_thumbnail', true);
-                        if ($display_thumbnail == '1') {
+                        $disable_thumbnail = get_post_meta(get_the_ID(), 'disable_thumbnail', true);
+                        if ($disable_thumbnail !== '1') {
                             the_post_thumbnail('medium_large', $post_thumbnail_attr);
                         };
                         ?>

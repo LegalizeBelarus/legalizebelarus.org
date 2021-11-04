@@ -32,7 +32,7 @@ add_theme_support('post-thumbnails', array('post', 'page'));
 
 function set_default_meta($post_ID)
 {
-    $post_meta_labels = array("author", "custom_license", "display_thumbnail");
+    $post_meta_labels = array("author", "custom_license", "disable_thumbnail");
 
     $default_metas = array("Legalize Belarus", "0", "1");
 
