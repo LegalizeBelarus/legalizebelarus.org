@@ -26,7 +26,6 @@
 
             <div class="container">
                 <div class="row flex-column-reverse flex-md-row">
-                    <div class="col-md-9 pb-3">
 
 
                         <?php
@@ -36,8 +35,11 @@
                         );
 
                         $disable_thumbnail = get_post_meta(get_the_ID(), 'disable_thumbnail', true);
-                        if ($disable_thumbnail !== '1') {
+                        if ($disable_thumbnail !== '1') { ?>
+                                <div class="col-md-9 pb-3">
                             the_post_thumbnail('medium_large', $post_thumbnail_attr);
+                                </div>
+                            <?php
                         };
                         ?>
 
@@ -60,7 +62,7 @@
 <!--                            </div>-->
 <!--                        </div>-->
 
-                    </div>
+
 
                     <div class="col-md-3 pb-4">
                         <div class="lead"><?php echo get_post_meta(get_the_ID(), 'author', true) ?></div>
