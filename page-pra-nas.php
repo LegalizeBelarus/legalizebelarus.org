@@ -296,7 +296,7 @@
                 </div>
 
                 <div class="col-6 col-md-3 mb-3">
-                    <a target="_blank" class="no-dec text-white" href="http://moladz-bel.info/">
+                    <a target="_blank" class="no-dec text-white" href="https://moladzbel.org/">
                         <img class="img-fluid rad bshadow"
                              src="<?php bloginfo('template_url'); ?>/images/partners/YouthBloc.jpg">
                     </a>
