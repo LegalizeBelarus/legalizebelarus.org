@@ -26,7 +26,7 @@
 
             <div class="container">
                 <div class="row flex-column-reverse flex-md-row">
-                    <div class="col-md-9">
+                    <div class="col-md-9 pb-3">
 
 
                         <?php
@@ -57,7 +57,7 @@
 
                     </div>
 
-                    <div class="col-md-3 py-4">
+                    <div class="col-md-3 pb-4">
                         <div class="lead"><?php echo get_post_meta(get_the_ID(), 'author', true) ?></div>
                         <div class="lead mb-2"><?php echo get_the_date('j F Y'); ?></div>
 
