@@ -37,7 +37,7 @@
                     <div class="row flex-column-reverse flex-md-row">
 
                         <div class="col-md-9 pb-3">
-                            the_post_thumbnail('medium_large', $post_thumbnail_attr);
+                            <?php the_post_thumbnail('medium_large', $post_thumbnail_attr); ?>
                         </div>
 
                         <div class="col-md-3 pb-4">
