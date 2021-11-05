@@ -24,68 +24,66 @@
                 </div>
             </div>
 
-            <div class="container">
-                <div class="row flex-column-reverse flex-md-row">
+            <?php
+            $post_thumbnail_attr = array(
+                'alt' => get_the_title(),
+                'style' => 'max-width:100%;height:100%;width:100%;min-height:100%;object-fit:cover;'
+            );
 
+            $disable_thumbnail = get_post_meta(get_the_ID(), 'disable_thumbnail', true);
+            if ($disable_thumbnail !== '1') { ?>
 
-                        <?php
-                        $post_thumbnail_attr = array(
-                                'alt' => get_the_title(),
-                                'style' => 'max-width:100%;height:100%;width:100%;min-height:100%;object-fit:cover;'
-                        );
+                <div class="container">
+                    <div class="row flex-column-reverse flex-md-row">
 
-                        $disable_thumbnail = get_post_meta(get_the_ID(), 'disable_thumbnail', true);
-                        if ($disable_thumbnail !== '1') { ?>
-                                <div class="col-md-9 pb-3">
+                        <div class="col-md-9 pb-3">
                             the_post_thumbnail('medium_large', $post_thumbnail_attr);
-                                </div>
+                        </div>
+
+                        <div class="col-md-3 pb-4">
+                            <div class="lead"><?php echo get_post_meta(get_the_ID(), 'author', true) ?></div>
+                            <div class="lead mb-2"><?php echo get_the_date('j F Y'); ?></div>
+
                             <?php
-                        };
-                        ?>
-
-<!--Turn off views counter-->
-<!--                        <div class="d-flex w-100 views_container justify-content-end px-3 pb-4">-->
-<!--                            <div class="d-flex align-items-end">-->
-<!--                                <div class="d-inline-flex px-1 m-3 badge-secondary badge">-->
-<!---->
-<!--                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-eye-fill"-->
-<!--                                         fill="black"-->
-<!--                                         xmlns="http://www.w3.org/2000/svg">-->
-<!--                                        <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>-->
-<!--                                        <path fill-rule="evenodd"-->
-<!--                                              d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>-->
-<!--                                    </svg>-->
-<!---->
-<!--                                    <span>&nbsp--><?php //echo getPostViews(get_the_ID()); ?><!--</span>-->
-<!---->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
+                            foreach ((get_the_category()) as $category) { ?>
+                                <a href="<?php echo get_category_link($category) ?>">
+                                    <div class="badge-primary badge shadow my-1"> <?php
+                                        echo $category->cat_name; ?>
+                                    </div>
+                                </a> <?php
+                            } ?>
 
 
-
-                    <div class="col-md-3 pb-4">
-                        <div class="lead"><?php echo get_post_meta(get_the_ID(), 'author', true) ?></div>
-                        <div class="lead mb-2"><?php echo get_the_date('j F Y'); ?></div>
-
-                        <?php
-                        foreach ((get_the_category()) as $category) { ?>
-                            <a href="<?php echo get_category_link($category) ?>">
-                                <div class="badge-primary badge shadow my-1"> <?php
-                                    echo $category->cat_name; ?>
-                                </div>
-                            </a> <?php
-                        } ?>
+                            <?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar("posts-sidebar")) : ?>
+                            <?php endif; ?>
 
 
-                        <?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar("posts-sidebar")) : ?>
-                        <?php endif; ?>
-
+                        </div>
 
                     </div>
                 </div>
 
-            </div>
+            <?php }; ?>
+
+            <!--Turn off views counter-->
+            <!--                        <div class="d-flex w-100 views_container justify-content-end px-3 pb-4">-->
+            <!--                            <div class="d-flex align-items-end">-->
+            <!--                                <div class="d-inline-flex px-1 m-3 badge-secondary badge">-->
+            <!---->
+            <!--                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-eye-fill"-->
+            <!--                                         fill="black"-->
+            <!--                                         xmlns="http://www.w3.org/2000/svg">-->
+            <!--                                        <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>-->
+            <!--                                        <path fill-rule="evenodd"-->
+            <!--                                              d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>-->
+            <!--                                    </svg>-->
+            <!---->
+            <!--                                    <span>&nbsp-->
+            <?php //echo getPostViews(get_the_ID()); ?><!--</span>-->
+            <!---->
+            <!--                                </div>-->
+            <!--                            </div>-->
+            <!--                        </div>-->
 
             <div class="container">
                 <div class="row">
