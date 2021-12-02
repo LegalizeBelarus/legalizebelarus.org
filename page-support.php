@@ -61,7 +61,7 @@
 
             <div class="container">
                 <p>Yes, we accept Bitcoin. Here is our wallet: <a target="_blank"
-                                                                  href="bitcoin:3Bo4a5STRFx4gYFVFqCzkMzVDEdnocrwXc">3Bo4a5STRFx4gYFVFqCzkMzVDEdnocrwXc/a>
+                                                                  href="bitcoin:3Bo4a5STRFx4gYFVFqCzkMzVDEdnocrwXc">3Bo4a5STRFx4gYFVFqCzkMzVDEdnocrwXc</a>
                 </p>
             </div>
 
