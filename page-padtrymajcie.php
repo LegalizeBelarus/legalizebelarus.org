@@ -62,9 +62,7 @@
 
             <div class="container">
                 <p>Мы также принимаем Bitcoin. Наш кошелек: <a target="_blank"
-                                                               href="bitcoin:3Bo4a5STRFx4gYFVFqCzkMzVDEdnocrwXc">3Bo4a5STRFx4gY
-                        <wbr>
-                        FVFqCzkMzVDEdnocrwXc</a>
+                                                               href="bitcoin:3Bo4a5STRFx4gYFVFqCzkMzVDEdnocrwXc">3Bo4a5STRFx4gYFVFqCzkMzVDEdnocrwXc</a>
                 </p>
             </div>
 
