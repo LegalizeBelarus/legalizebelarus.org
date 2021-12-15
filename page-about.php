@@ -31,7 +31,7 @@
                 <p>We believe that society will greatly benefit from being better informed about the
                     psychopharmacological properties of controlled substances, their history, potential risks of
                     consumption and known methods of harm reduction. People who acquired mental disorders due to drug
-                    use should to be treated with compassion and support.
+                    use should be treated with compassion and support.
                 </p>
 
                 <p>We contend that the state should exclude possession of small amounts of controlled drugs
