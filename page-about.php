@@ -69,9 +69,9 @@
                     </div>
 
                     <div class="col-md-10 my-auto text-center text-md-left">
-                        <h5>Advocate for decriminalization of small amount possession</h5>
+                        <h5>Advocate for decriminalization of small amounts possession</h5>
                         <p>Bring in international expertise.
-                            <br>Work out formal policy recommendation for the government.</p>
+                            <br>Work out formal policy recommendations for the government.</p>
                     </div>
 
                 </div>
