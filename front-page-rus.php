@@ -23,7 +23,8 @@
                     <p class="lead">Мы появились в 2017 году как реакция на античеловечную и неэффективную наркополитику
                         в
                         Беларуси.</p>
-                    <p class="lead"><a href="/naviny/statja-328-ugolovnogo-kodieksa-rjespubliki-bjelarus/">Статья 328</a> Уголовного кодекса нарушает базовые права человека,
+                    <p class="lead"><a href="/naviny/statja-328-ugolovnogo-kodieksa-rjespubliki-bjelarus/">Статья
+                            328</a> Уголовного кодекса нарушает базовые права человека,
                         ограничивает
                         гражданские свободы, маргинализирует уязвимые группы и поддерживает нетерпипость в обществе,
                         затрудняет доступ пациентов к лечению, способствует преступности, коррупции и появлению
@@ -62,7 +63,7 @@
             <a href="/naviny/overdose/">
                 <div class="jumbo_wrapper jumbotron d-flex jumbotron-fluid justify-content-center align-items-center px-3 my-0">
                     <div class="img_holder" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
-                                    url(<?php bloginfo('template_url'); ?>/images/crowd.jpg);"></div>
+                            url(<?php bloginfo('template_url'); ?>/images/crowd.jpg);"></div>
 
                     <div class="align-items-end post_thumbnail p-3 d-flex  flex-column">
 
@@ -79,7 +80,7 @@
             <a href="/naviny/anketa-328/">
                 <div class="jumbo_wrapper jumbotron d-flex jumbotron-fluid justify-content-center align-items-center px-3 my-0">
                     <div class="img_holder" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
-                                    url(<?php bloginfo('template_url'); ?>/images/prison.jpg);"></div>
+                            url(<?php bloginfo('template_url'); ?>/images/prison.jpg);"></div>
 
                     <div class="align-items-end post_thumbnail p-3 d-flex  flex-column">
 
@@ -96,7 +97,7 @@
             <a href="/naviny/hatespeech328/">
                 <div class="jumbo_wrapper jumbotron d-flex jumbotron-fluid justify-content-center align-items-center px-3 my-0">
                     <div class="img_holder" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
-                                    url(<?php bloginfo('template_url'); ?>/images/hate-speech.jpg);"></div>
+                            url(<?php bloginfo('template_url'); ?>/images/hate-speech.jpg);"></div>
 
                     <div class="align-items-end post_thumbnail p-3 d-flex  flex-column">
 
@@ -113,13 +114,14 @@
             <a href="/naviny/narkotizacija-i-avtoritarizm-film-pro-bielaruskuju-vojnu-s-narkotikami/">
                 <div class="jumbo_wrapper jumbotron d-flex jumbotron-fluid justify-content-center align-items-center px-3 my-0">
                     <div class="img_holder" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
-                                    url(<?php bloginfo('template_url'); ?>/images/narcotisation-and-authoritarianism.jpg);"></div>
+                            url(<?php bloginfo('template_url'); ?>/images/narcotisation-and-authoritarianism.jpg);"></div>
 
                     <div class="align-items-end post_thumbnail p-3 d-flex  flex-column">
 
 
                         <div class="d-flex w-100 h-100 justify-content-center align-items-center text-center">
-                            <p class="display-4 text-light text-shadow">Наркотизация и авторитаризм: документальный фильм</p>
+                            <p class="display-4 text-light text-shadow">Наркотизация и авторитаризм: документальный
+                                фильм</p>
                         </div>
 
                     </div>
@@ -138,55 +140,57 @@
                     <?php
                     $args = array('post_type' => 'post', 'posts_per_page' => 11);
                     $post_query = new WP_Query($args);
-                    if($post_query->have_posts() ) {
-                    while($post_query->have_posts() ) {
-                    $post_query->the_post();
-                    ?>
+                    if ($post_query->have_posts()) {
+                        while ($post_query->have_posts()) {
+                            $post_query->the_post();
+                            ?>
+
+
+                            <div class="col-lg-3 col-md-4 col-sm-6 p-0">
+                                <a href="<?php echo the_permalink() ?>">
+                                    <div class="post_wrapper">
+
+                                        <div class="img_holder"
+                                             style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.9)),
+                                                     url(<?php the_post_thumbnail_url('medium_large'); ?>);"></div>
+
+                                        <div class="align-items-end post_thumbnail p-3 d-flex  flex-column">
+
+                                            <div class="mb-auto">
+                                        <span class="badge badge-secondary">
+                                        <?php echo get_the_date('j F Y'); ?>
+                                        </span>
+                                            </div>
+
+                                            <div class="d-flex w-100">
+                                                <p class="lead text-shadow text-light mb-0 pb-0"><?php the_title(); ?></p>
+                                            </div>
+
+                                        </div>
+
+
+                                    </div>
+                                </a>
+
+                            </div>
+
+                        <?php }
+                    } ?>
 
 
                     <div class="col-lg-3 col-md-4 col-sm-6 p-0">
-                        <a href="<?php echo the_permalink() ?>">
-                            <div class="post_wrapper">
-
-                                <div class="img_holder" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.9)),
-                                    url(<?php the_post_thumbnail_url('medium_large'); ?>);"></div>
-
-                                <div class="align-items-end post_thumbnail p-3 d-flex  flex-column">
-
-                                    <div class="mb-auto">
-                                        <span class="badge badge-secondary">
-                                        <?php echo get_the_date( 'j F Y' ); ?>
-                                        </span>
-                                    </div>
-
-                                    <div class="d-flex w-100">
-                                        <p class="lead text-shadow text-light mb-0 pb-0"><?php the_title(); ?></p>
-                                    </div>
-
-                                </div>
-
-
-                            </div>
-                        </a>
-
-                    </div>
-
-                    <?php }}?>
-					
-					
-										<div class="col-lg-3 col-md-4 col-sm-6 p-0">
                         <a href="https://legalizebelarus.org/naviny/">
-                            <div class="post_wrapper" style="background: linear-gradient( rgba(0,0,0,0.1), rgba(0,0,0,0.1));">
+                            <div class="post_wrapper"
+                                 style="background: linear-gradient( rgba(0,0,0,0.1), rgba(0,0,0,0.1));">
                                 <div class="img_holder d-flex flex-column justify-content-center align-items-center text-center text-dark h-100 px-3">
-									<div class="display-4">🗞</div>
-									<p class="display-4">Все новости</p>
-								</div>
+                                    <div class="display-4">🗞</div>
+                                    <p class="display-4">Все новости</p>
+                                </div>
                             </div>
                         </a>
 
                     </div>
-					
-					
+
 
                 </div>
             </div>
@@ -212,6 +216,12 @@
                                                                                   src="<?php bloginfo('template_url'); ?>/images/links/github.png"></a>
                 <a target="_blank" href="https://rarible.com/legalizebelarus"><img class="si2"
                                                                                    src="<?php bloginfo('template_url'); ?>/images/links/rarible.png"></a>
+            </div>
+
+            <div class="container text-center pt-3">
+                <p class="lead">
+                    Программное обеспечение для поддержки чата предоставлено <a href="https://www.livechat.com/" target="_blank">LiveChat</a>
+                </p>
             </div>
 
             <script>
