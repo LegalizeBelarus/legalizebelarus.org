@@ -13,7 +13,9 @@
                 <a href="/presa">
                     <div class="badge-primary badge shadow my-1">Пресс-служба</div>
                 </a>
-
+                <a href="/digest">
+                    <div class="badge-primary badge shadow my-1">Дайджесты новостей</div>
+                </a>
             </div>
         </div>
 

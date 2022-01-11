@@ -1,4 +1,4 @@
-<?php /* Template Name: page-presa */ ?>
+<?php /* Template Name: page-digest */ ?>
 <?php get_header(); ?>
 
 
@@ -6,7 +6,7 @@
 
         <div class="row pb-5">
             <div class="col text-center">
-                <p class="display-4 mb-4">Пресс-служба Legalize Belarus</p>
+                <p class="display-4 mb-4">Дайджесты новостей</p>
 
                 <a href="/naviny">
                     <div class="badge-primary badge shadow my-1">Все новости</div>
@@ -14,8 +14,8 @@
                 <a href="/medyja">
                     <div class="badge-primary badge shadow my-1">Упоминания в медиа</div>
                 </a>
-                <a href="/digest">
-                    <div class="badge-primary badge shadow my-1">Дайджесты новостей</div>
+                <a href="/presa">
+                    <div class="badge-primary badge shadow my-1">Пресс-служба</div>
                 </a>
             </div>
         </div>
@@ -23,9 +23,9 @@
         <?php
         $page = (get_query_var('page')) ? get_query_var('page') : 1;
         $query = new WP_Query(array(
-                'posts_per_page' => 10,
-                'category_name' => 'presa',
-                'paged' => $page
+            'posts_per_page' => 10,
+            'category_name' => 'digest',
+            'paged' => $page
         ));
         if ($query->have_posts()) : while ($query->have_posts()) : $query->the_post();
             ?>
@@ -38,7 +38,7 @@
 
                             <div class="img_holder"
                                  style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)),
-                                         url(<?php the_post_thumbnail_url('medium_large'); ?>);"></div>
+                                     url(<?php the_post_thumbnail_url('medium_large'); ?>);"></div>
 
                             <div class="align-items-end post_thumbnail p-3 d-flex flex-column">
                                 <div>
@@ -86,19 +86,19 @@
         <div class="container text-center pt-3">
             <?php
             echo paginate_links(array(
-                    'base' => '/presa/%_%',
-                    'total' => $query->max_num_pages,
-                    'current' => max(1, get_query_var('page')),
-                    'format' => '%#%',
-                    'show_all' => false,
-                    'type' => 'plain',
-                    'end_size' => 2,
-                    'mid_size' => 3,
-                    'prev_next' => true,
-                    'prev_text' => '←',
-                    'next_text' => '→',
-                    'add_args' => false,
-                    'add_fragment' => '',
+                'base' => '/digest/%_%',
+                'total' => $query->max_num_pages,
+                'current' => max(1, get_query_var('page')),
+                'format' => '%#%',
+                'show_all' => false,
+                'type' => 'plain',
+                'end_size' => 2,
+                'mid_size' => 3,
+                'prev_next' => true,
+                'prev_text' => '←',
+                'next_text' => '→',
+                'add_args' => false,
+                'add_fragment' => '',
             ));
 
             wp_reset_query();

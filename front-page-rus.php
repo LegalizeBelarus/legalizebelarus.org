@@ -318,6 +318,21 @@
     </main>
 </div>
 
+<script>
+    jQuery(document).ready(function () {
+
+        jQuery('.flex-column').mouseover(function () {
+
+            jQuery(this).find('.badge-primary').css('opacity', '1');
+        });
+
+        jQuery('.flex-column').mouseout(function () {
+
+            jQuery(this).find('.badge-primary').css('opacity', '0');
+        });
+    });
+</script>
+
 <?php get_footer(); ?>
 
 
