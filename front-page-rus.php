@@ -130,7 +130,7 @@
             </a>
 
             <div class="container pb-4 pt-5 text-center">
-                <p class="display-4">Дайджесты новостей</p>
+                <p class="display-4">Новости мира веществ в Беларуси и мире</p>
             </div>
 
             <?php
