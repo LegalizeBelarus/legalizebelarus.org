@@ -130,76 +130,6 @@
             </a>
 
             <div class="container pb-4 pt-5 text-center">
-                <p class="display-4">Новости</p>
-            </div>
-
-            <div class="container pb-5">
-
-                <div class="row ">
-
-                    <?php
-                    $args = array(
-                            'post_type' => 'post',
-                            'category_name' => 'medyja,presa',
-                            'posts_per_page' => 11
-                    );
-                    $post_query = new WP_Query($args);
-                    if ($post_query->have_posts()) {
-                        while ($post_query->have_posts()) {
-                            $post_query->the_post();
-                            ?>
-
-
-                            <div class="col-lg-3 col-md-4 col-sm-6 p-0">
-                                <a href="<?php echo the_permalink() ?>">
-                                    <div class="post_wrapper">
-
-                                        <div class="img_holder"
-                                             style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.9)),
-                                                     url(<?php the_post_thumbnail_url('medium_large'); ?>);"></div>
-
-                                        <div class="align-items-end post_thumbnail p-3 d-flex  flex-column">
-
-                                            <div class="mb-auto">
-                                        <span class="badge badge-secondary">
-                                        <?php echo get_the_date('j F Y'); ?>
-                                        </span>
-                                            </div>
-
-                                            <div class="d-flex w-100">
-                                                <p class="lead text-shadow text-light mb-0 pb-0"><?php the_title(); ?></p>
-                                            </div>
-
-                                        </div>
-
-
-                                    </div>
-                                </a>
-
-                            </div>
-
-                        <?php }
-                    } ?>
-
-
-                    <div class="col-lg-3 col-md-4 col-sm-6 p-0">
-                        <a href="https://legalizebelarus.org/naviny/">
-                            <div class="post_wrapper"
-                                 style="background: linear-gradient( rgba(0,0,0,0.1), rgba(0,0,0,0.1));">
-                                <div class="img_holder d-flex flex-column justify-content-center align-items-center text-center text-dark h-100 px-3">
-                                    <div class="display-4">🗞</div>
-                                    <p class="display-4">Все новости</p>
-                                </div>
-                            </div>
-                        </a>
-
-                    </div>
-
-
-                </div>
-            </div>
-
-            <div class="container pb-4 text-center">
                 <p class="display-4">Дайджесты новостей</p>
             </div>
 
@@ -269,8 +199,77 @@
 
             <?php endif; ?>
 
+            <div class="container pb-4 pt-4 text-center">
+                <p class="display-4">Пресс-служба Legalize Belarus</p>
+            </div>
 
-            <div class="container bg-light pb-4 pt-4 text-center">
+            <div class="container pb-5">
+
+                <div class="row ">
+
+                    <?php
+                    $args = array(
+                            'post_type' => 'post',
+                            'category_name' => 'medyja,presa',
+                            'posts_per_page' => 11
+                    );
+                    $post_query = new WP_Query($args);
+                    if ($post_query->have_posts()) {
+                        while ($post_query->have_posts()) {
+                            $post_query->the_post();
+                            ?>
+
+
+                            <div class="col-lg-3 col-md-4 col-sm-6 p-0">
+                                <a href="<?php echo the_permalink() ?>">
+                                    <div class="post_wrapper">
+
+                                        <div class="img_holder"
+                                             style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.9)),
+                                                     url(<?php the_post_thumbnail_url('medium_large'); ?>);"></div>
+
+                                        <div class="align-items-end post_thumbnail p-3 d-flex  flex-column">
+
+                                            <div class="mb-auto">
+                                        <span class="badge badge-secondary">
+                                        <?php echo get_the_date('j F Y'); ?>
+                                        </span>
+                                            </div>
+
+                                            <div class="d-flex w-100">
+                                                <p class="lead text-shadow text-light mb-0 pb-0"><?php the_title(); ?></p>
+                                            </div>
+
+                                        </div>
+
+
+                                    </div>
+                                </a>
+
+                            </div>
+
+                        <?php }
+                    } ?>
+
+
+                    <div class="col-lg-3 col-md-4 col-sm-6 p-0">
+                        <a href="https://legalizebelarus.org/naviny/">
+                            <div class="post_wrapper"
+                                 style="background: linear-gradient( rgba(0,0,0,0.1), rgba(0,0,0,0.1));">
+                                <div class="img_holder d-flex flex-column justify-content-center align-items-center text-center text-dark h-100 px-3">
+                                    <div class="display-4">🗞</div>
+                                    <p class="display-4">Архив новостей</p>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="container bg-light pb-4 text-center">
                 <p class="display-4">🔗 Ссылки</p>
             </div>
 
