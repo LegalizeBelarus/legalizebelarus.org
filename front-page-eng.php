@@ -83,7 +83,11 @@
                 <div class="row">
 
                     <?php
-                    $args = array('post_type' => 'post', 'posts_per_page' => 11);
+                    $args = array(
+                            'post_type' => 'post',
+                            'category_name' => 'media,press',
+                            'posts_per_page' => 11
+                    );
                     $post_query = new WP_Query($args);
                     if ($post_query->have_posts()) {
                         while ($post_query->have_posts()) {

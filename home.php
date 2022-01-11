@@ -12,6 +12,9 @@
                 <a href="/<?php _e('media', 'legalizebelarus'); ?>">
                     <div class="badge-primary badge shadow my-1"><?php _e('Media mentions', 'legalizebelarus'); ?></div>
                 </a>
+                <a href="/<?php _e('digest', 'legalizebelarus'); ?>">
+                    <div class="badge-primary badge shadow my-1"><?php _e('News digests', 'legalizebelarus'); ?></div>
+                </a>
             </div>
         </div>
 
@@ -73,7 +76,6 @@
             </a>
 
         <?php endwhile; ?>
-
 
             <div class="container text-center pt-3">
 
