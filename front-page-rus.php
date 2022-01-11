@@ -270,7 +270,7 @@
             <?php endif; ?>
 
 
-            <div class="container bg-light pb-4 text-center">
+            <div class="container bg-light pb-4 pt-4 text-center">
                 <p class="display-4">🔗 Ссылки</p>
             </div>
 
@@ -311,27 +311,22 @@
 
                         jQuery(this).find('.img_holder').css('transform', 'scale(1)');
                     });
+
+                    jQuery('.flex-column').mouseover(function () {
+
+                        jQuery(this).find('.badge-primary').css('opacity', '1');
+                    });
+
+                    jQuery('.flex-column').mouseout(function () {
+
+                        jQuery(this).find('.badge-primary').css('opacity', '0');
+                    });
                 });
             </script>
 
         </section>
     </main>
 </div>
-
-<script>
-    jQuery(document).ready(function () {
-
-        jQuery('.flex-column').mouseover(function () {
-
-            jQuery(this).find('.badge-primary').css('opacity', '1');
-        });
-
-        jQuery('.flex-column').mouseout(function () {
-
-            jQuery(this).find('.badge-primary').css('opacity', '0');
-        });
-    });
-</script>
 
 <?php get_footer(); ?>
 
