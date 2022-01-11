@@ -217,7 +217,7 @@
                     <div class="row mb-4 post-container mx-3">
 
                         <div class="col-lg-3 px-0">
-                            <div class="h-100 rad-l news_wrapper">
+                            <div class="h-100 rad-l main_page_news_wrapper">
 
                                 <div class="img_holder"
                                      style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)),

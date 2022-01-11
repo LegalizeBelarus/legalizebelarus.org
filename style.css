@@ -206,6 +206,12 @@ div.fb-comments iframe {
     min-height: 200px;
 }
 
+.main_page_news_wrapper {
+    position: relative;
+    overflow: hidden;
+    min-height: 150px;
+}
+
 .jumbo_wrapper {
     position: relative;
     max-height: 300px;
