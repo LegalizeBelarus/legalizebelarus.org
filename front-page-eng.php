@@ -160,6 +160,11 @@
                                                                                                         src="<?php bloginfo('template_url'); ?>/images/links/youtube.png"></a>
                 <a target="_blank" href="https://t.me/LegalizeBelarus"><img class="si2"
                                                                             src="<?php bloginfo('template_url'); ?>/images/links/telegram.png"></a>
+
+                <a target="_blank" href="https://ok.ru/legalizebelarus"><img class="si2"
+                                                                            src="<?php bloginfo('template_url'); ?>/images/links/ok.png"></a>
+
+
                 <a target="_blank" href="https://www.patreon.com/LegalizeBelarus"><img class="si2"
                                                                                        src="<?php bloginfo('template_url'); ?>/images/links/patreon.png"></a>
                 <a target="_blank" href="https://github.com/LegalizeBelarus"><img class="si2"
