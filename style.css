@@ -271,7 +271,6 @@ body {
 .jumbotron {
     background-position: center;
     background-size: cover;
-    height: 70vh;
 }
 
 .grad {
@@ -302,4 +301,24 @@ strong {
 .menu-item:nth-last-child(2) > .nav-link:focus, .menu-item:nth-last-child(2) > .nav-link:hover {
     text-decoration: none;
     box-shadow: 0 0 8px rgb(0, 0, 0);
+}
+
+.fundraising-button {
+    background: #FFFFFF;
+    width: 50%;
+    font-size: 16pt;
+    min-height: 50px;
+    vertical-align: middle;
+}
+
+.fundraising-button-dark {
+    background: linear-gradient(135deg, rgb(229, 27, 77), rgb(62, 2, 166));
+    width: 50%;
+    font-size: 16pt;
+    min-height: 50px;
+    vertical-align: middle;
+}
+
+.stripe-image {
+    width: 100px;
 }
