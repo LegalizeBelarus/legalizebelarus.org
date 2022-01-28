@@ -141,4 +141,6 @@ function aj_modify_posts_per_page($query)
 
 add_action('pre_get_posts', 'aj_modify_posts_per_page');
 
+add_post_type_support('page', 'excerpt');
+
 ?>
