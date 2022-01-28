@@ -313,7 +313,7 @@ strong {
 
 .fundraising-button-dark {
     background: linear-gradient(135deg, rgb(229, 27, 77), rgb(62, 2, 166));
-    width: 50%;
+    min-width: 50%;
     font-size: 16pt;
     min-height: 50px;
     vertical-align: middle;
