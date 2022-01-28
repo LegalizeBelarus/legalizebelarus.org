@@ -271,6 +271,7 @@ body {
 .jumbotron {
     background-position: center;
     background-size: cover;
+    min-height: 70vh;
 }
 
 .grad {
