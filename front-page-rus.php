@@ -86,7 +86,7 @@
 
 
                         <div class="d-flex w-100 h-100 justify-content-center align-items-center text-center">
-                            <p class="display-4 text-light text-shadow">Юридическая поддержка по 328</p>
+                            <p class="display-4 text-light text-shadow">Юридическая поддержка для преследуемых по статье 328</p>
                         </div>
 
                     </div>
