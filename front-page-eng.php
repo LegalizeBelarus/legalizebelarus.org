@@ -64,7 +64,7 @@
 
 
                         <div class="d-flex w-100 h-100 justify-content-center align-items-center text-center">
-                            <p class="display-4 text-light text-shadow">Consultations and legal support 328</p>
+                            <p class="display-4 text-light text-shadow">Consultations and legal support for the prosecuted under Article 328</p>
                         </div>
 
                     </div>
