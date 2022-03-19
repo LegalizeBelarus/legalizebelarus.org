@@ -77,16 +77,16 @@
                 </div>
             </a>
 
-            <a href="/naviny/anketa-328/">
+            <a href="/presa/legal-support/">
                 <div class="jumbo_wrapper jumbotron d-flex jumbotron-fluid justify-content-center align-items-center px-3 my-0">
                     <div class="img_holder" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
-                            url(<?php bloginfo('template_url'); ?>/images/prison.jpg);"></div>
+                            url(<?php bloginfo('template_url'); ?>/images/legal_support.jpg);"></div>
 
                     <div class="align-items-end post_thumbnail p-3 d-flex  flex-column">
 
 
                         <div class="d-flex w-100 h-100 justify-content-center align-items-center text-center">
-                            <p class="display-4 text-light text-shadow">Мониторинг: анкета для осуждённых</p>
+                            <p class="display-4 text-light text-shadow">Юридическая поддержка по 328</p>
                         </div>
 
                     </div>
@@ -104,24 +104,6 @@
 
                         <div class="d-flex w-100 h-100 justify-content-center align-items-center text-center">
                             <p class="display-4 text-light text-shadow">Язык вражды: памятка для журналистов</p>
-                        </div>
-
-                    </div>
-
-                </div>
-            </a>
-
-            <a href="/naviny/narkotizacija-i-avtoritarizm-film-pro-bielaruskuju-vojnu-s-narkotikami/">
-                <div class="jumbo_wrapper jumbotron d-flex jumbotron-fluid justify-content-center align-items-center px-3 my-0">
-                    <div class="img_holder" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
-                            url(<?php bloginfo('template_url'); ?>/images/narcotisation-and-authoritarianism.jpg);"></div>
-
-                    <div class="align-items-end post_thumbnail p-3 d-flex  flex-column">
-
-
-                        <div class="d-flex w-100 h-100 justify-content-center align-items-center text-center">
-                            <p class="display-4 text-light text-shadow">Наркотизация и авторитаризм: документальный
-                                фильм</p>
                         </div>
 
                     </div>
@@ -298,7 +280,8 @@
 
             <div class="container text-center pt-3">
                 <p class="lead">
-                    Программное обеспечение для поддержки чата предоставлено <a href="https://www.livechat.com/" target="_blank">LiveChat</a>
+                    Программное обеспечение для поддержки чата предоставлено <a href="https://www.livechat.com/"
+                                                                                target="_blank">LiveChat</a>
                 </p>
             </div>
 
