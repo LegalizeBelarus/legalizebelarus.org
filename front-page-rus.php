@@ -280,7 +280,8 @@
 
             <div class="container text-center pt-3">
                 <p class="lead">
-                    Программное обеспечение для поддержки чата предоставлено <a href="https://www.livechat.com/" target="_blank">LiveChat</a>
+                    Программное обеспечение для поддержки чата предоставлено <a href="https://www.livechat.com/"
+                                                                                target="_blank">LiveChat</a>
                 </p>
             </div>
 

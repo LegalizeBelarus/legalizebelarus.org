@@ -55,7 +55,7 @@
                 </div>
             </div>
 
-            <a href="/en/press/legal-support-328/">
+            <a href="/en/press/legal-support-eng/">
                 <div class="jumbo_wrapper jumbotron d-flex jumbotron-fluid justify-content-center align-items-center px-3 my-0">
                     <div class="img_holder" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
                             url(<?php bloginfo('template_url'); ?>/images/legal_support.jpg);"></div>
@@ -82,7 +82,8 @@
 
 
                         <div class="d-flex w-100 h-100 justify-content-center align-items-center text-center">
-                            <p class="display-4 text-light text-shadow">Narcotisation and Authoritarianism: the history of Belarusian War on Drugs</p>
+                            <p class="display-4 text-light text-shadow">Narcotisation and Authoritarianism: the history
+                                of Belarusian War on Drugs</p>
                         </div>
 
                     </div>
@@ -178,7 +179,7 @@
                                                                             src="<?php bloginfo('template_url'); ?>/images/links/telegram.png"></a>
 
                 <a target="_blank" href="https://ok.ru/legalizebelarus"><img class="si2"
-                                                                            src="<?php bloginfo('template_url'); ?>/images/links/ok.png"></a>
+                                                                             src="<?php bloginfo('template_url'); ?>/images/links/ok.png"></a>
 
 
                 <a target="_blank" href="https://www.patreon.com/LegalizeBelarus"><img class="si2"
