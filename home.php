@@ -9,11 +9,8 @@
                 <a href="/<?php _e('press', 'legalizebelarus'); ?>">
                     <div class="badge-primary badge shadow my-1"><?php _e('Press service', 'legalizebelarus'); ?></div>
                 </a>
-                <a href="/<?php _e('media', 'legalizebelarus'); ?>">
-                    <div class="badge-primary badge shadow my-1"><?php _e('Media mentions', 'legalizebelarus'); ?></div>
-                </a>
-                <a href="/<?php _e('digest', 'legalizebelarus'); ?>">
-                    <div class="badge-primary badge shadow my-1"><?php _e('News digests (Bel / Rus)', 'legalizebelarus'); ?></div>
+                <a href="/<?php _e('drugs', 'legalizebelarus'); ?>">
+                    <div class="badge-primary badge shadow my-1"><?php _e('Drugs News', 'legalizebelarus'); ?></div>
                 </a>
             </div>
         </div>

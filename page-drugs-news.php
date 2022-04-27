@@ -1,4 +1,4 @@
-<?php /* Template Name: page-digest */ ?>
+<?php /* Template Name: page-drugs-news */ ?>
 <?php get_header(); ?>
 
 
@@ -6,13 +6,10 @@
 
         <div class="row pb-5">
             <div class="col text-center">
-                <p class="display-4 mb-4">Дайджесты новостей</p>
+                <p class="display-4 mb-4">Новости ПАВ</p>
 
                 <a href="/naviny">
                     <div class="badge-primary badge shadow my-1">Все новости</div>
-                </a>
-                <a href="/medyja">
-                    <div class="badge-primary badge shadow my-1">Упоминания в медиа</div>
                 </a>
                 <a href="/presa">
                     <div class="badge-primary badge shadow my-1">Пресс-служба</div>
@@ -24,7 +21,7 @@
         $page = (get_query_var('page')) ? get_query_var('page') : 1;
         $query = new WP_Query(array(
             'posts_per_page' => 10,
-            'category_name' => 'digest',
+            'category_name' => 'drugs',
             'paged' => $page
         ));
         if ($query->have_posts()) : while ($query->have_posts()) : $query->the_post();
@@ -86,7 +83,7 @@
         <div class="container text-center pt-3">
             <?php
             echo paginate_links(array(
-                'base' => '/digest/%_%',
+                'base' => '/drugs/%_%',
                 'total' => $query->max_num_pages,
                 'current' => max(1, get_query_var('page')),
                 'format' => '%#%',

@@ -44,12 +44,12 @@ msgid "Media mentions"
 msgstr "Упоминания в медиа"
 
 #: home.php:15
-msgid "digest"
-msgstr "digest"
+msgid "drugs"
+msgstr "drugs"
 
 #: home.php:16
-msgid "News digests (Bel / Rus)"
-msgstr "Дайджесты новостей"
+msgid "Drugs News"
+msgstr "Новости ПАВ"
 
 #: index.php:7
 msgid "Page not found 😢"

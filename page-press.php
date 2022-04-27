@@ -7,14 +7,12 @@
         <div class="row pb-5">
             <div class="col text-center">
                 <p class="display-4 mb-4">Legalize Belarus Press Service</p>
-
                 <a href="/news">
                     <div class="badge-primary badge shadow my-1">All news</div>
                 </a>
-                <a href="/media">
-                    <div class="badge-primary badge shadow my-1">Media mentions</div>
+                <a href="https://legalizebelarus-org.translate.goog/drugs/?_x_tr_sl=ru&_x_tr_tl=be&_x_tr_hl=be&_x_tr_pto=wapp">
+                    <div class="badge-primary badge shadow my-1">Drugs News</div>
                 </a>
-
             </div>
         </div>
 

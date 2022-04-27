@@ -118,7 +118,7 @@
             $page = (get_query_var('page')) ? get_query_var('page') : 1;
             $query = new WP_Query(array(
                 'posts_per_page' => 7,
-                'category_name' => 'digest',
+                'category_name' => 'drugs',
                 'paged' => $page
             ));
             if ($query->have_posts()) : while ($query->have_posts()) : $query->the_post();
