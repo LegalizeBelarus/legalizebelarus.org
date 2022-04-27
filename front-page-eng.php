@@ -53,28 +53,13 @@
                 </div>
             </div>
 
-            <a href="/en/press/legal-support-eng/">
+            <a href="https://legalizebelarus-org.translate.goog/presa/overdose/?_x_tr_sl=ru&_x_tr_tl=en&_x_tr_hl=en-US&_x_tr_pto=wapp">
                 <div class="jumbo_wrapper jumbotron d-flex jumbotron-fluid justify-content-center align-items-center px-3 my-0">
                     <div class="img_holder" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
-                            url(<?php bloginfo('template_url'); ?>/images/legal_support.jpg);"></div>
+                            url(<?php bloginfo('template_url'); ?>/images/crowd.jpg);"></div>
                     <div class="align-items-end post_thumbnail p-3 d-flex  flex-column">
                         <div class="d-flex w-100 h-100 justify-content-center align-items-center text-center">
-                            <p class="display-4 text-light text-shadow">Legal consultations for the prosecuted under
-                                Article 328 and their relatives</p>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-
-            <a href="/en/news/narcotisation-and-authoritarianism-a-film-about-the-drug-war/">
-                <div class="jumbo_wrapper jumbotron d-flex jumbotron-fluid justify-content-center align-items-center px-3 my-0">
-                    <div class="img_holder" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
-                            url(<?php bloginfo('template_url'); ?>/images/narcotisation-and-authoritarianism.jpg);"></div>
-                    <div class="align-items-end post_thumbnail p-3 d-flex  flex-column">
-                        <div class="d-flex w-100 h-100 justify-content-center align-items-center text-center">
-                            <p class="display-4 text-light text-shadow">Narcotisation and Authoritarianism: the history
-                                of Belarusian War on Drugs</p>
+                            <p class="display-4 text-light text-shadow">What do you do if someone is overdosing?</p>
                         </div>
                     </div>
                 </div>
@@ -92,27 +77,26 @@
                 </div>
             </a>
 
-            <a href="/naviny/overdose/">
+            <a href="/en/press/legal-support-eng/">
                 <div class="jumbo_wrapper jumbotron d-flex jumbotron-fluid justify-content-center align-items-center px-3 my-0">
                     <div class="img_holder" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
-                            url(<?php bloginfo('template_url'); ?>/images/crowd.jpg);"></div>
+                            url(<?php bloginfo('template_url'); ?>/images/legal_support.jpg);"></div>
                     <div class="align-items-end post_thumbnail p-3 d-flex  flex-column">
                         <div class="d-flex w-100 h-100 justify-content-center align-items-center text-center">
-                            <p class="display-4 text-light text-shadow">What fo you fo if someone is overdosing?
-                                [RUS]</p>
+                            <p class="display-4 text-light text-shadow">Legal consultations for the prosecuted under
+                                Article 328 and their relatives</p>
                         </div>
                     </div>
                 </div>
             </a>
 
-            <a href="/naviny/hatespeech328/">
+            <a href="https://legalizebelarus-org.translate.goog/presa/hatespeech328/?_x_tr_sl=be&_x_tr_tl=en&_x_tr_hl=en-US&_x_tr_pto=wapp">
                 <div class="jumbo_wrapper jumbotron d-flex jumbotron-fluid justify-content-center align-items-center px-3 my-0">
                     <div class="img_holder" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
                             url(<?php bloginfo('template_url'); ?>/images/hate-speech.jpg);"></div>
                     <div class="align-items-end post_thumbnail p-3 d-flex  flex-column">
                         <div class="d-flex w-100 h-100 justify-content-center align-items-center text-center">
-                            <p class="display-4 text-light text-shadow">Hate speech towards drug users. Explainer
-                                [BEL]</p>
+                            <p class="display-4 text-light text-shadow">Hate speech towards drug users. Explainer</p>
                         </div>
                     </div>
                 </div>
