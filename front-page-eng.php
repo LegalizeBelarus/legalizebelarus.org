@@ -65,7 +65,7 @@
                 </div>
             </a>
 
-            <a href="/presa/drug-combo/">
+            <a href="https://legalizebelarus-org.translate.goog/presa/drug-combo/?_x_tr_sl=ru&_x_tr_tl=en&_x_tr_hl=be&_x_tr_pto=wapp">
                 <div class="jumbo_wrapper jumbotron d-flex jumbotron-fluid justify-content-center align-items-center px-3 my-0">
                     <div class="img_holder" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
                             url(<?php bloginfo('template_url'); ?>/images/drug-combinations.png);"></div>
