@@ -43,12 +43,10 @@
                     <img class="si mb-3" src="<?php bloginfo('template_url'); ?>/images/2.png">
                     <p class="lead">Deliver education about psychoactive substances and addictions</p>
                 </div>
-
                 <div class="col-md-4 text-center mb-4">
                     <img class="si mb-3" src="<?php bloginfo('template_url'); ?>/images/3.png">
                     <p class="lead">Advocate for decriminalization of small amount possession</p>
                 </div>
-
                 <div class="col-md-4 text-center mb-5">
                     <img class="si mb-3" src="<?php bloginfo('template_url'); ?>/images/1.png">
                     <p class="lead">Support drug users and people convicted under Article 328</p>
@@ -58,17 +56,13 @@
             <a href="/en/press/legal-support-eng/">
                 <div class="jumbo_wrapper jumbotron d-flex jumbotron-fluid justify-content-center align-items-center px-3 my-0">
                     <div class="img_holder" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
-                            url(<?php bloginfo('template_url'); ?>/images/legal_support.png);"></div>
-
+                            url(<?php bloginfo('template_url'); ?>/images/legal_support.jpg);"></div>
                     <div class="align-items-end post_thumbnail p-3 d-flex  flex-column">
-
-
                         <div class="d-flex w-100 h-100 justify-content-center align-items-center text-center">
-                            <p class="display-4 text-light text-shadow">Consultations and legal support for the prosecuted under Article 328</p>
+                            <p class="display-4 text-light text-shadow">Legal consultations for the prosecuted under
+                                Article 328 and their relatives</p>
                         </div>
-
                     </div>
-
                 </div>
             </a>
 
@@ -77,17 +71,50 @@
                 <div class="jumbo_wrapper jumbotron d-flex jumbotron-fluid justify-content-center align-items-center px-3 my-0">
                     <div class="img_holder" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
                             url(<?php bloginfo('template_url'); ?>/images/narcotisation-and-authoritarianism.jpg);"></div>
-
                     <div class="align-items-end post_thumbnail p-3 d-flex  flex-column">
-
-
                         <div class="d-flex w-100 h-100 justify-content-center align-items-center text-center">
                             <p class="display-4 text-light text-shadow">Narcotisation and Authoritarianism: the history
                                 of Belarusian War on Drugs</p>
                         </div>
-
                     </div>
+                </div>
+            </a>
 
+            <a href="/presa/drug-combo/">
+                <div class="jumbo_wrapper jumbotron d-flex jumbotron-fluid justify-content-center align-items-center px-3 my-0">
+                    <div class="img_holder" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+                            url(<?php bloginfo('template_url'); ?>/images/drug-combinations.png);"></div>
+                    <div class="align-items-end post_thumbnail p-3 d-flex  flex-column">
+                        <div class="d-flex w-100 h-100 justify-content-center align-items-center text-center">
+                            <p class="display-4 text-light text-shadow">Drugs combinations chart</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="/naviny/overdose/">
+                <div class="jumbo_wrapper jumbotron d-flex jumbotron-fluid justify-content-center align-items-center px-3 my-0">
+                    <div class="img_holder" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+                            url(<?php bloginfo('template_url'); ?>/images/crowd.jpg);"></div>
+                    <div class="align-items-end post_thumbnail p-3 d-flex  flex-column">
+                        <div class="d-flex w-100 h-100 justify-content-center align-items-center text-center">
+                            <p class="display-4 text-light text-shadow">What fo you fo if someone is overdosing?
+                                [RUS]</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="/naviny/hatespeech328/">
+                <div class="jumbo_wrapper jumbotron d-flex jumbotron-fluid justify-content-center align-items-center px-3 my-0">
+                    <div class="img_holder" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+                            url(<?php bloginfo('template_url'); ?>/images/hate-speech.jpg);"></div>
+                    <div class="align-items-end post_thumbnail p-3 d-flex  flex-column">
+                        <div class="d-flex w-100 h-100 justify-content-center align-items-center text-center">
+                            <p class="display-4 text-light text-shadow">Hate speech towards drug users. Explainer
+                                [BEL]</p>
+                        </div>
+                    </div>
                 </div>
             </a>
 
@@ -101,9 +128,9 @@
 
                     <?php
                     $args = array(
-                            'post_type' => 'post',
-                            'category_name' => 'media,press',
-                            'posts_per_page' => 11
+                        'post_type' => 'post',
+                        'category_name' => 'media,press',
+                        'posts_per_page' => 11
                     );
                     $post_query = new WP_Query($args);
                     if ($post_query->have_posts()) {

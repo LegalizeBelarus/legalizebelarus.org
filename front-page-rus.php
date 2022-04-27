@@ -64,33 +64,36 @@
                 <div class="jumbo_wrapper jumbotron d-flex jumbotron-fluid justify-content-center align-items-center px-3 my-0">
                     <div class="img_holder" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
                             url(<?php bloginfo('template_url'); ?>/images/crowd.jpg);"></div>
-
                     <div class="align-items-end post_thumbnail p-3 d-flex  flex-column">
-
-
                         <div class="d-flex w-100 h-100 justify-content-center align-items-center text-center">
                             <p class="display-4 text-light text-shadow">Что делать при передозировке?</p>
                         </div>
-
                     </div>
+                </div>
+            </a>
 
+            <a href="/presa/drug-combo/">
+                <div class="jumbo_wrapper jumbotron d-flex jumbotron-fluid justify-content-center align-items-center px-3 my-0">
+                    <div class="img_holder" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+                            url(<?php bloginfo('template_url'); ?>/images/drug-combinations.png);"></div>
+                    <div class="align-items-end post_thumbnail p-3 d-flex  flex-column">
+                        <div class="d-flex w-100 h-100 justify-content-center align-items-center text-center">
+                            <p class="display-4 text-light text-shadow">Таблица совместимости психоактивных веществ</p>
+                        </div>
+                    </div>
                 </div>
             </a>
 
             <a href="/presa/legal-support/">
                 <div class="jumbo_wrapper jumbotron d-flex jumbotron-fluid justify-content-center align-items-center px-3 my-0">
                     <div class="img_holder" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
-                            url(<?php bloginfo('template_url'); ?>/images/legal_support.png);"></div>
-
+                            url(<?php bloginfo('template_url'); ?>/images/legal_support.jpg);"></div>
                     <div class="align-items-end post_thumbnail p-3 d-flex  flex-column">
-
-
                         <div class="d-flex w-100 h-100 justify-content-center align-items-center text-center">
-                            <p class="display-4 text-light text-shadow">Юридическая поддержка для преследуемых по статье 328</p>
+                            <p class="display-4 text-light text-shadow">Юридическая поддержка для преследуемых по статье
+                                328</p>
                         </div>
-
                     </div>
-
                 </div>
             </a>
 
@@ -98,29 +101,25 @@
                 <div class="jumbo_wrapper jumbotron d-flex jumbotron-fluid justify-content-center align-items-center px-3 my-0">
                     <div class="img_holder" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
                             url(<?php bloginfo('template_url'); ?>/images/hate-speech.jpg);"></div>
-
                     <div class="align-items-end post_thumbnail p-3 d-flex  flex-column">
-
-
                         <div class="d-flex w-100 h-100 justify-content-center align-items-center text-center">
-                            <p class="display-4 text-light text-shadow">Язык вражды: памятка для журналистов</p>
+                            <p class="display-4 text-light text-shadow">Мова варожасьці у дачыненьні да спажыўцоў ПАР.
+                                Тлумачальнік</p>
                         </div>
-
                     </div>
-
                 </div>
             </a>
 
             <div class="container pb-4 pt-5 text-center">
-                <p class="display-4">Новости психоактивных веществ в Беларуси и мире</p>
+                <p class="display-4">Новости ПАВ</p>
             </div>
 
             <?php
             $page = (get_query_var('page')) ? get_query_var('page') : 1;
             $query = new WP_Query(array(
-                    'posts_per_page' => 7,
-                    'category_name' => 'digest',
-                    'paged' => $page
+                'posts_per_page' => 7,
+                'category_name' => 'digest',
+                'paged' => $page
             ));
             if ($query->have_posts()) : while ($query->have_posts()) : $query->the_post();
                 ?>
@@ -191,9 +190,9 @@
 
                     <?php
                     $args = array(
-                            'post_type' => 'post',
-                            'category_name' => 'medyja,presa',
-                            'posts_per_page' => 11
+                        'post_type' => 'post',
+                        'category_name' => 'medyja,presa',
+                        'posts_per_page' => 11
                     );
                     $post_query = new WP_Query($args);
                     if ($post_query->have_posts()) {
