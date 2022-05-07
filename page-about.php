@@ -139,6 +139,18 @@
                     </a>
                 </div>
 
+                <div class="col-6 col-md-4 col-lg-3 mb-3">
+                    <a target="_blank" class="no-dec text-dark" href="https://facebook.com/KnightMetalhead">
+                        <div class="card">
+                            <img src="<?php bloginfo('template_url'); ?>/images/team/Maksim.jpg" class="card-img-top">
+                            <div class="card-body rad-b">
+                                <h5 class="card-title">Maksim Kavaleu</h5>
+                                <p class="card-text font-weight-normal">Founder</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
 <!--                <div class="col-6 col-md-4 col-lg-3 mb-3">-->
 <!--                    <a target="_blank" class="no-dec text-dark" href="https://facebook.com/meequz">-->
 <!--                        <div class="card">-->
@@ -175,6 +187,30 @@
                     </a>
                 </div>
 
+                <div class="col-6 col-md-4 col-lg-3 mb-3">
+                    <a target="_blank" class="no-dec text-dark" href="https://facebook.com/swetlana.golovniova">
+                        <div class="card">
+                            <img src="<?php bloginfo('template_url'); ?>/images/team/Svieta.jpg" class="card-img-top">
+                            <div class="card-body rad-b">
+                                <h5 class="card-title">Swetlana Golovniova</h5>
+                                <p class="card-text font-weight-normal">Media team</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-3 mb-3">
+                    <a target="_blank" class="no-dec text-dark" href="https://www.facebook.com/artur.chill.3">
+                        <div class="card">
+                            <img src="<?php bloginfo('template_url'); ?>/images/team/Artur.jpg" class="card-img-top">
+                            <div class="card-body rad-b">
+                                <h5 class="card-title">Artur Katsynel</h5>
+                                <p class="card-text font-weight-normal">Media team</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
 <!--                <div class="col-6 col-md-4 col-lg-3 mb-3">-->
 <!--                    <a target="_blank" class="no-dec text-dark" href="https://facebook.com/jahor.viniacki">-->
 <!--                        <div class="card">-->
@@ -201,36 +237,40 @@
                 </div>
 
                 <div class="col-6 col-md-4 col-lg-3 mb-3">
-                    <a target="_blank" class="no-dec text-dark" href="https://facebook.com/swetlana.golovniova">
-                        <div class="card">
-                            <img src="<?php bloginfo('template_url'); ?>/images/team/Svieta.jpg" class="card-img-top">
-                            <div class="card-body rad-b">
-                                <h5 class="card-title">Swetlana Golovniova</h5>
-                                <p class="card-text font-weight-normal">Media team</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-6 col-md-4 col-lg-3 mb-3">
-                    <a target="_blank" class="no-dec text-dark" href="https://facebook.com/KnightMetalhead">
-                        <div class="card">
-                            <img src="<?php bloginfo('template_url'); ?>/images/team/Maksim.jpg" class="card-img-top">
-                            <div class="card-body rad-b">
-                                <h5 class="card-title">Maksim Kavaleu</h5>
-                                <p class="card-text font-weight-normal">Founder</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-6 col-md-4 col-lg-3 mb-3">
                     <a target="_blank" class="no-dec text-dark" href="https://facebook.com/michael.hasin">
                         <div class="card">
                             <img src="<?php bloginfo('template_url'); ?>/images/team/Michael.jpg" class="card-img-top">
                             <div class="card-body rad-b">
                                 <h5 class="card-title">Mikhail Khasinevich</h5>
                                 <p class="card-text font-weight-normal">Media team</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-3 mb-3">
+                    <a target="_blank" class="no-dec text-dark"
+                       href="https://www.facebook.com/profile.php?id=100045110552482">
+                        <div class="card">
+                            <img src="<?php bloginfo( 'template_url' ); ?>/images/team/Siarhiej.jpg"
+                                 class="card-img-top">
+                            <div class="card-body rad-b">
+                                <h5 class="card-title">Siarhiej Tubalec</h5>
+                                <p class="card-text font-weight-normal">Media manager</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-3 mb-3">
+                    <a target="_blank" class="no-dec text-dark"
+                       href="https://www.facebook.com/profile.php?id=100045110552482">
+                        <div class="card">
+                            <img src="<?php bloginfo( 'template_url' ); ?>/images/team/Siarhiej.jpg"
+                                 class="card-img-top">
+                            <div class="card-body rad-b">
+                                <h5 class="card-title">Danila Laurecki</h5>
+                                <p class="card-text font-weight-normal">Program manager</p>
                             </div>
                         </div>
                     </a>
