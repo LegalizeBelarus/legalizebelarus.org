@@ -266,7 +266,7 @@
                     <a target="_blank" class="no-dec text-dark"
                        href="https://www.facebook.com/profile.php?id=100045110552482">
                         <div class="card">
-                            <img src="<?php bloginfo( 'template_url' ); ?>/images/team/Siarhiej.jpg"
+                            <img src="<?php bloginfo( 'template_url' ); ?>/images/team/Danila.jpg"
                                  class="card-img-top">
                             <div class="card-body rad-b">
                                 <h5 class="card-title">Danila Laurecki</h5>
