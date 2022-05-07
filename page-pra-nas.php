@@ -260,7 +260,7 @@
                             <img src="<?php bloginfo('template_url'); ?>/images/team/BabaKush.jpg" class="card-img-top">
                             <div class="card-body rad-b">
                                 <h5 class="card-title">Баба Куш</h5>
-                                <p class="card-text font-weight-normal">Медиа-служба</p>
+                                <p class="card-text font-weight-normal">Снижение вреда</p>
                             </div>
                         </div>
                     </a>
