@@ -208,7 +208,7 @@
                             <img src="<?php bloginfo( 'template_url' ); ?>/images/team/Artur.jpg"
                                  class="card-img-top">
                             <div class="card-body rad-b">
-                                <h5 class="card-title">Артур Кацынел</h5>
+                                <h5 class="card-title">Артур Кацинель</h5>
                                 <p class="card-text font-weight-normal">Медиа-служба</p>
                             </div>
                         </div>
