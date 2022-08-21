@@ -102,7 +102,7 @@
                             <?php
                             $license = get_post_meta( get_the_ID(), 'custom_license', true );
 
-                            if ( $license !== '0' ) { ?>
+                            if ( $license == '0' ) { ?>
 
                                 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img
                                             alt="Creative Commons Licence"
