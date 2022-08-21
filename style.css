@@ -308,7 +308,7 @@ strong {
 
 .menu-item:nth-last-child(2) > .nav-link.active {
     background: none;
-    color: #FFFFFF !important;
+    color: #343a40 !important;
     box-shadow: 0 0 4px rgb(0, 0, 0);
     pointer-events: none;
 }
