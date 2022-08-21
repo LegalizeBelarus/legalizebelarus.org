@@ -180,6 +180,12 @@
 
             <?php endif; ?>
 
+            <div class="container pb-5 text-center">
+                <a target="_blank" href="https://legalizebelarus.org/drugs/">
+                    <div class="btn btn-lg btn-dark">🔗 Все новости ПАВ</div>
+                </a>
+            </div>
+
             <div class="container pb-4 pt-4 text-center">
                 <p class="display-4">Пресс-служба Legalize Belarus</p>
             </div>
