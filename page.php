@@ -1,5 +1,13 @@
 <?php get_header(); ?>
 
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+<script>
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+</script>
+
 <div class="container bg-light px-0 pt-4 cont">
 
     <div class="container pb-3 text-center">
@@ -18,9 +26,5 @@
 
 <?php get_footer(); ?>
 
-<script>
-    $(function () {
-        $('[data-toggle="tooltip"]').tooltip()
-    })
-</script>
+
 
