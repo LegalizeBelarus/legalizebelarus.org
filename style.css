@@ -39,8 +39,12 @@ Domain Path: /languages
     text-shadow: 0 0 4px #000000;
 }
 
+.drug-block {
+    text-shadow: 0 0 4px #000000;
+}
+
 .dosage-shadow {
-    text-shadow: 0 0 4px #FFFFFF;
+    text-shadow: 0 0 8px #FFFFFF;
 }
 
 .post_thumbnail {
@@ -300,6 +304,13 @@ strong {
     box-shadow: 0 0 12px rgb(0, 0, 0);
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.menu-item:nth-last-child(2) > .nav-link.active {
+    background: none;
+    color: #FFFFFF !important;
+    box-shadow: 0 0 4px rgb(0, 0, 0);
+    pointer-events: none;
 }
 
 .menu-item:nth-last-child(2) > .nav-link:focus, .menu-item:nth-last-child(2) > .nav-link:hover {
