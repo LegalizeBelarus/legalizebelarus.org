@@ -108,7 +108,7 @@
                                             alt="Creative Commons Licence"
                                             src="https://i.creativecommons.org/l/by/4.0/88x31.png"/></a>
 
-                                <p class="mt-2"><?php _e( 'Unless otherwise noted, the text of this article is licensed under a Creative Commons Attribution 4.0 International License.', 'legalizebelarus' ); ?></p>
+                                <p class="mt-2"><?php _e( 'Unless otherwise noted, text of this article is licensed under the Creative Commons Attribution 4.0 International License.', 'legalizebelarus' ); ?></p>
                                 <?php
                             } else { ?>
                                 <p> <?php echo $license; ?> </p> <?php

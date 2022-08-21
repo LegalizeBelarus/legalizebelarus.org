@@ -92,7 +92,7 @@ msgstr "💨 Мы ничего не смогли найти. Попробуйт�
 
 #: single.php:110
 msgid ""
-"Unless otherwise noted, the text of this article is licensed under a "
+"Unless otherwise noted, text of this article is licensed under the "
 "Creative Commons Attribution 4.0 International License."
 msgstr ""
 "Если не указано иное, текст этого материала лицензирован в соответствии "
