@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-01-28 21:46+0200\n"
-"PO-Revision-Date: 2022-01-28 21:52+0200\n"
+"POT-Creation-Date: 2022-08-21 17:40+0200\n"
+"PO-Revision-Date: 2022-08-21 17:41+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru_BY\n"
@@ -36,18 +36,10 @@ msgid "Press service"
 msgstr "Пресс-служба"
 
 #: home.php:12
-msgid "media"
-msgstr "medyja"
-
-#: home.php:13
-msgid "Media mentions"
-msgstr "Упоминания в медиа"
-
-#: home.php:15
 msgid "drugs"
 msgstr "drugs"
 
-#: home.php:16
+#: home.php:13
 msgid "Drugs News"
 msgstr "Новости ПАВ"
 
@@ -90,10 +82,16 @@ msgstr "Попробуйте Google для продвинутого поиска
 msgid "💨 No results found. Try Google."
 msgstr "💨 Мы ничего не смогли найти. Попробуйте Google."
 
-#: single.php:110
+#: single.php:111
 msgid ""
-"Unless otherwise noted, text of this article is licensed under the "
-"Creative Commons Attribution 4.0 International License."
+"Unless otherwise noted, text of this article is licensed under the Creative "
+"Commons Attribution 4.0 International License."
 msgstr ""
-"Если не указано иное, текст этого материала лицензирован в соответствии "
-"с международной лицензией Creative Commons Attribution 4.0."
+"Если не указано иное, текст этого материала лицензирован в соответствии с "
+"международной лицензией Creative Commons Attribution 4.0."
+
+#~ msgid "media"
+#~ msgstr "medyja"
+
+#~ msgid "Media mentions"
+#~ msgstr "Упоминания в медиа"
