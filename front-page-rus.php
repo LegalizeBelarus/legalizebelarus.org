@@ -186,7 +186,7 @@
                 </a>
             </div>
 
-            <div class="container pb-4 pt-4 text-center">
+            <div class="container pb-4 mt-5 text-center">
                 <p class="display-4">Пресс-служба Legalize Belarus</p>
             </div>
 
