@@ -4,7 +4,7 @@
 
         <div class="container cont bg-light pb-5 pt-4 px-0 px-md-5">
 
-            <?php setPostViews(get_the_ID()); ?>
+            <?php setPostViews( get_the_ID() ); ?>
 
             <div class="container pb-3">
                 <p class="display-4"><?php the_title(); ?></p>
@@ -14,7 +14,7 @@
                 <div class="row">
                     <div class="col-md-9">
                         <div class="lead-bold mb-4">
-                            <?php if (!has_excerpt()) {
+                            <?php if ( ! has_excerpt() ) {
                                 echo '';
                             } else {
                                 the_excerpt();
@@ -26,27 +26,27 @@
 
             <?php
             $post_thumbnail_attr = array(
-                'alt' => get_the_title(),
-                'style' => 'max-width:100%;height:100%;width:100%;min-height:100%;object-fit:cover;'
+                    'alt'   => get_the_title(),
+                    'style' => 'max-width:100%;height:100%;width:100%;min-height:100%;object-fit:cover;'
             );
 
-            $disable_thumbnail = get_post_meta(get_the_ID(), 'disable_thumbnail', true);
-            if ($disable_thumbnail !== '1') { ?>
+            $disable_thumbnail = get_post_meta( get_the_ID(), 'disable_thumbnail', true );
+            if ( $disable_thumbnail !== '1' ) { ?>
 
                 <div class="container">
                     <div class="row flex-column-reverse flex-md-row">
 
                         <div class="col-md-9 pb-3">
-                            <?php the_post_thumbnail('medium_large', $post_thumbnail_attr); ?>
+                            <?php the_post_thumbnail( 'medium_large', $post_thumbnail_attr ); ?>
                         </div>
 
                         <div class="col-md-3 pb-4">
-                            <div class="lead"><?php echo get_post_meta(get_the_ID(), 'author', true) ?></div>
-                            <div class="lead mb-2"><?php echo get_the_date('j F Y'); ?></div>
+                            <div class="lead"><?php echo get_post_meta( get_the_ID(), 'author', true ) ?></div>
+                            <div class="lead mb-2"><?php echo get_the_date( 'j F Y' ); ?></div>
 
                             <?php
-                            foreach ((get_the_category()) as $category) { ?>
-                                <a href="<?php echo get_category_link($category) ?>">
+                            foreach ( ( get_the_category() ) as $category ) { ?>
+                                <a href="<?php echo get_category_link( $category ) ?>">
                                     <div class="badge-primary badge shadow my-1"> <?php
                                         echo $category->cat_name; ?>
                                     </div>
@@ -54,7 +54,7 @@
                             } ?>
 
 
-                            <?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar("posts-sidebar")) : ?>
+                            <?php if ( ! function_exists( 'dynamic_sidebar' ) || ! dynamic_sidebar( "posts-sidebar" ) ) : ?>
                             <?php endif; ?>
 
 
@@ -100,17 +100,28 @@
 
                         <div class="mb-4 mt-4 mt-md-0">
                             <?php
-                            $license = get_post_meta(get_the_ID(), 'custom_license', true);
-                            if ($license == '0') { ?>
+                            $license = get_post_meta( get_the_ID(), 'custom_license', true );
+
+                            if ( $license == '0' ) { ?>
 
                                 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img
                                             alt="Creative Commons Licence"
                                             src="https://i.creativecommons.org/l/by/4.0/88x31.png"/></a>
 
-                                <p class="mt-2"><?php _e('Unless otherwise noted, the content on this page is licensed under a Creative Commons Attribution 4.0 International License.', 'legalizebelarus'); ?></p>
+                                <p class="mt-2"><?php _e( 'Unless otherwise noted, the text of this article is licensed under a Creative Commons Attribution 4.0 International License.', 'legalizebelarus' ); ?></p>
                                 <?php
                             } else { ?>
                                 <p> <?php echo $license; ?> </p> <?php
+                            };
+                            ?>
+                        </div>
+
+                        <div class="mb-4 mt-4 mt-md-0">
+                            <?php
+                            $license_image = get_post_meta( get_the_ID(), 'custom_license_image', true );
+
+                            if ( $license_image !== '0' ) {
+                                echo $license_image;
                             };
                             ?>
                         </div>

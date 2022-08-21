@@ -92,8 +92,8 @@ msgstr "💨 Мы ничего не смогли найти. Попробуйт�
 
 #: single.php:110
 msgid ""
-"Unless otherwise noted, the content on this page is licensed under a "
+"Unless otherwise noted, the text of this article is licensed under a "
 "Creative Commons Attribution 4.0 International License."
 msgstr ""
-"Если не указано иное, содержимое этой страницы лицензировано в соответствии "
+"Если не указано иное, текст этого материала лицензирован в соответствии "
 "с международной лицензией Creative Commons Attribution 4.0."
