@@ -180,7 +180,7 @@
 
             <?php endif; ?>
 
-            <div class="container pb-5 text-center">
+            <div class="container pt-3 text-center">
                 <a target="_blank" href="https://legalizebelarus.org/drugs/">
                     <div class="btn btn-lg btn-dark">🔗 Все новости ПАВ</div>
                 </a>
