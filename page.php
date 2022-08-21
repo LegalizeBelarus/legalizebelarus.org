@@ -2,7 +2,7 @@
 
     <div class="container bg-light px-0 pt-4 cont">
 
-        <div class="container pb-3 text-center">
+        <div class="container pb-3 text-left">
             <p class="display-4"><?php the_title(); ?></p>
         </div>
 
