@@ -337,3 +337,16 @@ strong {
 .stripe-image {
     width: 100px;
 }
+
+
+@media (min-width: 544px) {
+    .display-4 {
+        font-size: 2rem
+    }
+}
+
+@media (min-width: 768px) {
+    .display-4 {
+        font-size: 2.5rem;
+    }
+}
