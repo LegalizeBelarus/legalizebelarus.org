@@ -284,20 +284,6 @@
                     <a target="_blank" class="no-dec text-dark"
                        href="https://www.facebook.com/profile.php?id=100045110552482">
                         <div class="card">
-                            <img src="<?php bloginfo( 'template_url' ); ?>/images/team/Siarhiej.jpg"
-                                 class="card-img-top">
-                            <div class="card-body rad-b">
-                                <h5 class="card-title">Siarhiej Tubalec</h5>
-                                <p class="card-text font-weight-normal">Media manager</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-6 col-md-4 col-lg-3 mb-3">
-                    <a target="_blank" class="no-dec text-dark"
-                       href="https://www.facebook.com/profile.php?id=100045110552482">
-                        <div class="card">
                             <img src="<?php bloginfo( 'template_url' ); ?>/images/team/Danila.jpg"
                                  class="card-img-top">
                             <div class="card-body rad-b">
