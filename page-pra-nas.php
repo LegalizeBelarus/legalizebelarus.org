@@ -405,6 +405,8 @@
                                                                                   src="<?php bloginfo( 'template_url' ); ?>/images/links/github.png"></a>
                 <a target="_blank" href="https://rarible.com/legalizebelarus"><img class="si2"
                                                                                    src="<?php bloginfo( 'template_url' ); ?>/images/links/rarible.png"></a>
+                <a target="_blank" href="https://ru.wikipedia.org/wiki/Legalize_Belarus"><img class="si2"
+                                                                                   src="<?php bloginfo('template_url'); ?>/images/links/wiki.png"></a>
             </div>
 
         </section>
