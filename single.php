@@ -27,6 +27,7 @@
             <?php
             $post_thumbnail_attr = array(
                     'alt'   => get_the_title(),
+                    'title' => get_the_title(),
                     'style' => 'max-width:100%;height:100%;width:100%;min-height:100%;object-fit:cover;'
             );
 
