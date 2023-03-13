@@ -372,6 +372,13 @@
                 </div>
 
                 <div class="col-6 col-md-3 mb-3">
+                    <a target="_blank" class="no-dec text-white" href="https://harmreductioneurasia.org/">
+                        <img class="img-fluid rad bshadow"
+                             src="<?php bloginfo( 'template_url' ); ?>/images/partners/ehra.jpg">
+                    </a>
+                </div>
+
+                <div class="col-6 col-md-3 mb-3">
                     <a target="_blank" class="no-dec text-white" href="https://www.livechat.com/">
                         <img class="img-fluid rad bshadow"
                              src="<?php bloginfo( 'template_url' ); ?>/images/partners/LiveChat.jpg">
