@@ -84,7 +84,7 @@
                 </div>
             </a>
 
-            <a href="/presa/legal-support/">
+            <a href="/legal_consultation/">
                 <div class="jumbo_wrapper jumbotron d-flex jumbotron-fluid justify-content-center align-items-center px-3 my-0">
                     <div class="img_holder" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
                             url(<?php bloginfo( 'template_url' ); ?>/images/legal_support.jpg);"></div>
