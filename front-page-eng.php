@@ -51,7 +51,7 @@
                 </div>
             </div>
 
-            <a href="https://legalizebelarus-org.translate.goog/presa/overdose/?_x_tr_sl=ru&_x_tr_tl=en&_x_tr_hl=en-US&_x_tr_pto=wapp">
+            <a href="https://legalizebelarus.org/presa/overdose/">
                 <div class="jumbo_wrapper jumbotron d-flex jumbotron-fluid justify-content-center align-items-center px-3 my-0">
                     <div class="img_holder" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
                             url(<?php bloginfo('template_url'); ?>/images/crowd.jpg);"></div>
