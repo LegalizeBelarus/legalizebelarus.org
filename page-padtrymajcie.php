@@ -32,7 +32,7 @@
             </div>
 
             <div class="container pb-3 text-center">
-                <p class="display-4">Единовременное пожертвование</p>
+                <p class="display-4 px-2">Единовременное пожертвование</p>
             </div>
 
             <div class="container">
@@ -46,7 +46,7 @@
 
 
             <div class="container pb-3 text-center">
-                <p class="display-4">Ежемесячные пожертвования</p>
+                <p class="display-4 px-2">Ежемесячные пожертвования</p>
             </div>
 
             <div class="container">

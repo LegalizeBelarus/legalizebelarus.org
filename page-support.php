@@ -33,7 +33,7 @@
             </div>
 
             <div class="container pb-3 text-center">
-                <p class="display-4">One-time donation</p>
+                <p class="display-4 px-2">One-time donation</p>
             </div>
 
             <div class="container">
@@ -45,7 +45,7 @@
             </div>
 
             <div class="container pb-3 text-center">
-                <p class="display-4">Monthly donations</p>
+                <p class="display-4 px-2">Monthly donations</p>
             </div>
 
             <div class="container">
