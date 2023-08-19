@@ -95,32 +95,32 @@
                         the_content(); ?>
 
                         <?php 
-						$supportTexts = [
-							'be_BY' => [
-								'header' => '&#128147; Нам патрэбна ваша дапамога',
-								'body' => 'Калі вам падабаецца што робіць Legalize Belarus — падтрымайце нас праз <a href="https://www.patreon.com/LegalizeBelarus">Patreon</a>. Гэта бяспечна.',
-							],
-							'en_GB' => [
-								'header' => '&#128147; We need your support',
-								'body' => 'If you like what Legalize Belarus is doing, support us on <a href="https://www.patreon.com/LegalizeBelarus">Patreon</a> or in <a href="https://legalizebelarus.org/en/support/">another way</a>.',
-							],
-							'ru_RU' => [
-								'header' => '&#128147; Нам нужна ваша поддержка',
-								'body' => 'Если вам нравится что делает Legalize Belarus — поддержите нас через <a href="https://www.patreon.com/LegalizeBelarus">Patreon</a>. Это безопасно.',
-							],
-						];
-						
-						$locale = get_locale();
-						
-						if (isset($supportTexts[$locale])) {
-							$template = '<div id="support-us-block"><div id="support-us-block-header">%s</div><div id="support-us-block-body">%s</div></div>';
-							echo sprintf(
-								$template,
-								$supportTexts[$locale]['header'],
-								$supportTexts[$locale]['body']
-							);
-						};
-						?>
+                        $supportTexts = [
+                            'be_BY' => [
+                                'header' => '&#128147; Нам патрэбна ваша дапамога',
+                                'body' => 'Калі вам падабаецца што робіць Legalize Belarus — падтрымайце нас праз <a href="https://www.patreon.com/LegalizeBelarus">Patreon</a>. Гэта бяспечна.',
+                            ],
+                            'en_GB' => [
+                                'header' => '&#128147; We need your support',
+                                'body' => 'If you like what Legalize Belarus is doing, support us on <a href="https://www.patreon.com/LegalizeBelarus">Patreon</a> or in <a href="https://legalizebelarus.org/en/support/">another way</a>.',
+                            ],
+                            'ru_RU' => [
+                                'header' => '&#128147; Нам нужна ваша поддержка',
+                                'body' => 'Если вам нравится что делает Legalize Belarus — поддержите нас через <a href="https://www.patreon.com/LegalizeBelarus">Patreon</a>. Это безопасно.',
+                            ],
+                        ];
+                        
+                        $locale = get_locale();
+                        
+                        if (isset($supportTexts[$locale])) {
+                            $template = '<div id="support-us-block"><div id="support-us-block-header">%s</div><div id="support-us-block-body">%s</div></div>';
+                            echo sprintf(
+                                $template,
+                                $supportTexts[$locale]['header'],
+                                $supportTexts[$locale]['body']
+                            );
+                        };
+                        ?>
                     </div>
 
                     <div class="col-md-3">
