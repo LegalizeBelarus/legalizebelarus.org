@@ -359,3 +359,18 @@ strong {
         font-size: 2.5rem !important;
     }
 }
+
+#support-us-block {
+	margin-top: 30px;
+	padding: 12px;
+	border-radius: 5px;
+	background-color: #f7dffc;
+}
+
+#support-us-block-header {
+	font-size: 150%;
+}
+
+#support-us-block-body {
+	margin-top: 10px;
+}
