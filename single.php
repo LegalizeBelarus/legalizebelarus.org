@@ -94,11 +94,11 @@
                         <?php the_post();
                         the_content(); ?>
 
-                        <?php
+                        <?php 
                         $supportTexts = [
                             'be_BY' => [
                                 'header' => '&#128147; Нам патрэбна ваша дапамога',
-                                'body' => 'Калі вам падабаецца што робіць Legalize Belarus — падтрымайце нас праз <a href="https://www.patreon.com/LegalizeBelarus">Patreon</a>. Гэта бяспечна.',
+                                'body' => 'Калі вам падабаецца, што робіць Legalize Belarus — падтрымайце нас праз <a href="https://www.patreon.com/LegalizeBelarus">Patreon</a>. Гэта бяспечна.',
                             ],
                             'en_GB' => [
                                 'header' => '&#128147; We need your support',
@@ -106,12 +106,12 @@
                             ],
                             'ru_RU' => [
                                 'header' => '&#128147; Нам нужна ваша поддержка',
-                                'body' => 'Если вам нравится что делает Legalize Belarus — поддержите нас через <a href="https://www.patreon.com/LegalizeBelarus">Patreon</a>. Это безопасно.',
+                                'body' => 'Если вам нравится, что делает Legalize Belarus — поддержите нас через <a href="https://www.patreon.com/LegalizeBelarus">Patreon</a>. Это безопасно.',
                             ],
                         ];
-
+                        
                         $locale = get_locale();
-
+                        
                         if (isset($supportTexts[$locale])) {
                             $template = '<div id="support-us-block"><div id="support-us-block-header">%s</div><div id="support-us-block-body">%s</div></div>';
                             echo sprintf(
