@@ -48,7 +48,7 @@
                             <?php
                             foreach ( ( get_the_category() ) as $category ) { ?>
                                 <a href="<?php echo get_category_link( $category ) ?>">
-                                    <div class="badge-primary badge shadow my-1"> <?php
+                                    <div class="badge-primary badge shadow mt-1 mb-4"> <?php
                                         echo $category->cat_name; ?>
                                     </div>
                                 </a> <?php
