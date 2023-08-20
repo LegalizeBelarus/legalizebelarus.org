@@ -201,11 +201,11 @@
                                                                                    src="<?php bloginfo('template_url'); ?>/images/links/wiki.png"></a>
             </div>
 
-            <div class="container text-center pt-3">
-                <p class="lead">
-                    Chat support software generously provided by <a href="https://www.livechat.com/" target="_blank">LiveChat</a>
-                </p>
-            </div>
+<!--            <div class="container text-center pt-3">-->
+<!--                <p class="lead">-->
+<!--                    Chat support software generously provided by <a href="https://www.livechat.com/" target="_blank">LiveChat</a>-->
+<!--                </p>-->
+<!--            </div>-->
 
             <script>
                 jQuery(document).ready(function () {
