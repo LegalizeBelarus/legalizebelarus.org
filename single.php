@@ -7,7 +7,7 @@
             <?php setPostViews( get_the_ID() ); ?>
 
             <div class="container pb-3">
-                <p class="display-4"><?php the_title(); ?></p>
+                <h1 class="display-4"><?php the_title(); ?></p>
 
             </div>
             <div class="container">
