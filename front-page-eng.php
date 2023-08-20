@@ -7,7 +7,7 @@
         <section>
 
             <div class="container pb-4 px-3 text-center">
-                <h1 class="display-4">User is not a criminal!</p>
+                <h1 class="display-4">User is not a criminal!</h1>
             </div>
 
             <div class="video_wrapper">
@@ -160,7 +160,7 @@
                                 <div class="img_holder d-flex flex-column justify-content-center align-items-center text-center text-dark h-100 px-3">
                                     <div class="display-4">🇬🇧</div>
                                     <p class="display-4">All news in English</p>
-                                    <p class="lead">(Check 🇧🇾 version for other news)</p>
+                                    <p class="lead">(See main language version for more)</p>
                                 </div>
                             </div>
                         </a>
@@ -201,11 +201,11 @@
                                                                                    src="<?php bloginfo('template_url'); ?>/images/links/wiki.png"></a>
             </div>
 
-            <div class="container text-center pt-3">
-                <p class="lead">
-                    Chat support software generously provided by <a href="https://www.livechat.com/" target="_blank">LiveChat</a>
-                </p>
-            </div>
+<!--            <div class="container text-center pt-3">-->
+<!--                <p class="lead">-->
+<!--                    Chat support software generously provided by <a href="https://www.livechat.com/" target="_blank">LiveChat</a>-->
+<!--                </p>-->
+<!--            </div>-->
 
             <script>
                 jQuery(document).ready(function () {
