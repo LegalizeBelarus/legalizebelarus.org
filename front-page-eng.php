@@ -160,7 +160,7 @@
                                 <div class="img_holder d-flex flex-column justify-content-center align-items-center text-center text-dark h-100 px-3">
                                     <div class="display-4">🇬🇧</div>
                                     <p class="display-4">All news in English</p>
-                                    <p class="lead">(Check 🇧🇾 version for other news)</p>
+                                    <p class="lead">(See main language version for more)</p>
                                 </div>
                             </div>
                         </a>
