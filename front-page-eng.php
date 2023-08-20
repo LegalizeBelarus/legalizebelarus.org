@@ -7,7 +7,7 @@
         <section>
 
             <div class="container pb-4 px-3 text-center">
-                <h1 class="display-4">User is not a criminal!</p>
+                <h1 class="display-4">User is not a criminal!</h1>
             </div>
 
             <div class="video_wrapper">

@@ -7,7 +7,7 @@
         <section>
 
             <div class="container pb-4 px-3 text-center">
-                <h1 class="display-4">Потребитель — не преступник!</p>
+                <h1 class="display-4">Потребитель — не преступник!</h1>
             </div>
 
             <div class="video_wrapper">
@@ -285,12 +285,12 @@
                                                                                    src="<?php bloginfo('template_url'); ?>/images/links/wiki.png"></a>
             </div>
 
-            <div class="container text-center pt-3">
-                <p class="lead">
-                    Программное обеспечение для поддержки чата предоставлено <a href="https://www.livechat.com/"
-                                                                                target="_blank">LiveChat</a>
-                </p>
-            </div>
+<!--            <div class="container text-center pt-3">-->
+<!--                <p class="lead">-->
+<!--                    Программное обеспечение для поддержки чата предоставлено <a href="https://www.livechat.com/"-->
+<!--                                                                                target="_blank">LiveChat</a>-->
+<!--                </p>-->
+<!--            </div>-->
 
             <script>
                 jQuery(document).ready(function () {
