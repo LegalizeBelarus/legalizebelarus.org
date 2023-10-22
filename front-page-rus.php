@@ -99,14 +99,13 @@
                 </div>
             </a>
 
-            <a href="/naviny/hatespeech328/">
+            <a href="/supplements/">
                 <div class="jumbo_wrapper jumbotron d-flex jumbotron-fluid justify-content-center align-items-center px-3 my-0">
                     <div class="img_holder" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
-                            url(<?php bloginfo( 'template_url' ); ?>/images/hate-speech.jpg);"></div>
+                            url(<?php bloginfo( 'template_url' ); ?>/images/supplements.jpg);"></div>
                     <div class="align-items-end post_thumbnail p-3 d-flex  flex-column">
                         <div class="d-flex w-100 h-100 justify-content-center align-items-center text-center">
-                            <p class="display-4 text-light text-shadow">Мова варожасьці у дачыненьні да спажыўцоў ПАР.
-                                Тлумачальнік</p>
+                            <p class="display-4 text-light text-shadow">Сапплементы, добавки и витамины</p>
                         </div>
                     </div>
                 </div>
