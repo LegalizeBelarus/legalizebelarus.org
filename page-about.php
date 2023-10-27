@@ -400,7 +400,7 @@
                                                                               src="<?php bloginfo( 'template_url' ); ?>/images/links/vk.png"></a>
                 <a target="_blank" href="https://instagram.com/legalizebelarus"><img class="si2"
                                                                                      src="<?php bloginfo( 'template_url' ); ?>/images/links/instagram.png"></a>
-                <a target="_blank" href="https://www.youtube.com/channel/UCFwygSKPi82hIlOVCF-2elg"><img class="si2"
+                <a target="_blank" href="https://www.youtube.com/@legalizebelarus"><img class="si2"
                                                                                                         src="<?php bloginfo( 'template_url' ); ?>/images/links/youtube.png"></a>
                 <a target="_blank" href="https://t.me/LegalizeBelarus"><img class="si2"
                                                                             src="<?php bloginfo( 'template_url' ); ?>/images/links/telegram.png"></a>
