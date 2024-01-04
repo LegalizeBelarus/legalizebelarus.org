@@ -29,6 +29,9 @@
                     <p class="lead">We stand for a responsible approach to the regulation of psychoactive
                         substances. Drug policy should be based on scientific evidence and aimed at reducing the harm of
                         drug use.</p>
+
+                  <p class="lead">Read a detailed analysis of Belarus drug policy and recommendations <a href="https://legalizebelarus.org/wp-content/uploads/2024/01/policy-paper_english_digital_final_v04.pdf">here</a>.</p>
+
                 </div>
             </div>
 
