@@ -64,7 +64,7 @@
 
             </div>
 
-            <div class="container pb-4 text-center">
+            <div class="container pb-5 text-center">
                 <p class="display-4">Истории осуждённых</p>
             </div>
 
