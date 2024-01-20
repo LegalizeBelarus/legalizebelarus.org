@@ -207,6 +207,19 @@ div.fb-comments iframe {
     overflow: hidden;
 }
 
+.post_wrapper_story {
+    position: relative;
+    padding-bottom: 100%;
+    overflow: hidden;
+    border-radius: 100%;
+    transition: all 0.2s;
+}
+
+.post_wrapper_story:hover {
+    scale: 1.02;
+    transition: all 0.2s;
+}
+
 .news_wrapper {
     position: relative;
     overflow: hidden;
@@ -293,10 +306,6 @@ strong {
     height: 15px;
     width: 15px;
     display: inline-block;
-}
-
-.all_news:hover {
-    transform: scale(1.05);
 }
 
 .menu-item:nth-last-child(2) > .nav-link {
