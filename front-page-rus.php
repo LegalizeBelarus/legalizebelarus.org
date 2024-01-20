@@ -70,7 +70,7 @@
 
             <div class="container pb-5">
 
-                <div class="row px-3">
+                <div class="row px-3 align-items-center justify-content-center">
 
                     <?php
                     $args = array(
