@@ -64,13 +64,13 @@
 
             </div>
 
-            <div class="container pb-5 text-center">
+            <div class="container pb-4 text-center">
                 <p class="display-4">Истории осуждённых</p>
             </div>
 
             <div class="container pb-5">
 
-                <div class="row ">
+                <div class="row px-3">
 
                     <?php
                     $args = array(
@@ -83,17 +83,17 @@
                         while ($post_query->have_posts()) {
                             $post_query->the_post();
                             ?>
-                            <div class="col-lg-3 col-md-4 col-sm-6 p-3 mx-2">
+                            <div class="col-lg-3 col-md-4 col-sm-6 p-3">
                                 <a href="<?php echo the_permalink() ?>">
                                     <div class="post_wrapper_story">
 
                                         <div class="img_holder"
-                                             style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.9)),
+                                             style="background-image: linear-gradient(rgba(256,0,0,0.5),rgba(256,0,0,0.5)),
                                                      url(<?php the_post_thumbnail_url('medium_large'); ?>);"></div>
 
-                                        <div class="align-items-center justify-content-center post_thumbnail p-3 d-flex">
+                                        <div class="align-items-center text-center align-items-center justify-content-center post_thumbnail p-3 d-flex">
 
-                                                <p class="lead text-shadow text-light mb-0 pb-0"><?php the_title(); ?></p>
+                                                <h5 class="text-shadow text-light mb-0 pb-0"><?php the_title(); ?></h5>
 
                                         </div>
 
