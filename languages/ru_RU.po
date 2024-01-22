@@ -95,3 +95,9 @@ msgstr ""
 
 #~ msgid "Media mentions"
 #~ msgstr "Упоминания в медиа"
+
+#~ msgid "stories"
+#~ msgstr "story"
+
+#~ msgid "Stories of the convicted"
+#~ msgstr "Истории осуждённых"
