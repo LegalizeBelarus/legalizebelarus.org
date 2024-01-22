@@ -90,14 +90,18 @@ msgstr ""
 "Если не указано иное, текст этого материала лицензирован в соответствии с "
 "международной лицензией Creative Commons Attribution 4.0."
 
+#: home.php:12
 msgid "media"
 msgstr "medyja"
 
+#: home.php:8
 msgid "Media mentions"
 msgstr "Упоминания в медиа"
 
+#: home.php:12
 msgid "stories"
 msgstr "story"
 
-#~ msgid "Stories of the convicted"
-#~ msgstr "Истории осуждённых"
+#: home.php:8
+msgid "Stories of the convicted"
+msgstr "Истории осуждённых"
