@@ -6,7 +6,7 @@
 
         <div class="row pb-5">
             <div class="col text-center">
-                <p class="display-4 mb-4">Истории осуждённых</p>
+                <p class="display-4 mb-4">Истории осуждённых по статье 328 в Беларуси</p>
 
                 <a href="/naviny">
                     <div class="badge-primary badge shadow my-1">Все новости</div>
