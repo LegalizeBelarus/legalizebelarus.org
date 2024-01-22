@@ -109,16 +109,14 @@
 
                 <div class="container pt-3 mt-4 text-center">
                     <a href="https://legalizebelarus.org/story/">
-                        <div class="btn btn-lg btn-danger">Все истории осуждённых (
-                            <?php
+                        <div class="btn btn-lg btn-danger">Все истории осуждённых (<?php
                     $args = array(
                         'category_name' => 'story',
                     );
                     $post_query = new WP_Query($args);
                     $total_news = $post_query->found_posts;
                             echo $total_news;
-                            ?>
-                            )</div>
+                            ?>)</div>
                     </a>
                 </div>
             </div>
@@ -245,17 +243,14 @@
 
             <div class="container pt-3 text-center">
                 <a target="_blank" href="https://legalizebelarus.org/drugs/">
-                    <div class="btn btn-lg btn-dark">🔗 Все новости ПАВ (
-
-                    <?php
+                    <div class="btn btn-lg btn-dark">🔗 Все новости ПАВ (<?php
                     $args = array(
                         'category_name' => 'drugs',
                     );
                     $post_query = new WP_Query($args);
                     $total_news = $post_query->found_posts;
                     echo $total_news;
-                    ?>
-                    )
+                    ?>)
                     </div>
                 </a>
             </div>
