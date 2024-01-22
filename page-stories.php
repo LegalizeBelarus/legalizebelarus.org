@@ -6,7 +6,7 @@
 
         <div class="row pb-5">
             <div class="col text-center">
-                <p class="display-4 mb-4">Stories of the convicted under Article 328</p>
+                <p class="display-4 mb-4">Behind Article 328: Unveiling Personal Stories of Individuals Convicted in Belarus</p>
                 <a href="/news">
                     <div class="badge-primary badge shadow my-1">All news</div>
                 </a>
