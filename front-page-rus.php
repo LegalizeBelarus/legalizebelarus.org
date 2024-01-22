@@ -319,7 +319,16 @@
                                  style="background: linear-gradient( rgba(0,0,0,0.1), rgba(0,0,0,0.1));">
                                 <div class="img_holder d-flex flex-column justify-content-center align-items-center text-center text-dark h-100 px-3">
                                     <div class="display-4">🗞</div>
-                                    <p class="display-4">Архив новостей</p>
+                                    <p class="display-4">Архив (
+                                    <?php
+                                    $args = array(
+                                        'category_name' => 'presa',
+                                    );
+                                    $post_query = new WP_Query($args);
+                                    $total_news = $post_query->found_posts;
+                                    echo $total_news;
+                                    ?>)
+                                    </p>
                                 </div>
                             </div>
                         </a>
