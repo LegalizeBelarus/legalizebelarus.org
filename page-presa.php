@@ -11,6 +11,12 @@
                 <a href="/naviny">
                     <div class="badge-primary badge shadow my-1">Все новости</div>
                 </a>
+                <a href="/medyja">
+                    <div class="badge-primary badge shadow my-1">Упоминания в медиа</div>
+                </a>
+                <a href="/story">
+                    <div class="badge-primary badge shadow my-1">Истории осуждённых</div>
+                </a>
                 <a href="/drugs">
                     <div class="badge-primary badge shadow my-1">Новости ПАВ</div>
                 </a>
@@ -21,7 +27,7 @@
         $page = (get_query_var('page')) ? get_query_var('page') : 1;
         $query = new WP_Query(array(
                 'posts_per_page' => 10,
-                'category_name' => 'medyja,presa',
+                'category_name' => 'presa',
                 'paged' => $page
         ));
         if ($query->have_posts()) : while ($query->have_posts()) : $query->the_post();

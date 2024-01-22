@@ -1,4 +1,4 @@
-<?php /* Template Name: page-medyja */ ?>
+<?php /* Template Name: page-stories */ ?>
 <?php get_header(); ?>
 
 
@@ -6,20 +6,16 @@
 
         <div class="row pb-5">
             <div class="col text-center">
-                <p class="display-4 mb-4">Упоминания в медиа</p>
-                <a href="/naviny">
-                    <div class="badge-primary badge shadow my-1">Все новости</div>
+                <p class="display-4 mb-4">Stories of the convicted under Article 328</p>
+                <a href="/news">
+                    <div class="badge-primary badge shadow my-1">All news</div>
                 </a>
-                <a href="/presa">
-                    <div class="badge-primary badge shadow my-1">Пресс-служба</div>
+                <a href="/press">
+                    <div class="badge-primary badge shadow my-1">Press service</div>
                 </a>
-                   <a href="/story">
-                    <div class="badge-primary badge shadow my-1">Истории осуждённых</div>
+                <a href="/media">
+                    <div class="badge-primary badge shadow my-1">Media mentions</div>
                 </a>
-                <a href="/drugs">
-                    <div class="badge-primary badge shadow my-1">Новости ПАВ</div>
-                </a>
-
             </div>
         </div>
 
@@ -27,7 +23,7 @@
         $page = (get_query_var('page')) ? get_query_var('page') : 1;
         $query = new WP_Query(array(
                 'posts_per_page' => 10,
-                'category_name' => 'medyja',
+                'category_name' => 'press',
                 'paged' => $page
         ));
         if ($query->have_posts()) : while ($query->have_posts()) : $query->the_post();
@@ -93,7 +89,7 @@
 
 
             echo paginate_links(array(
-                    'base' => '/medyja/%_%',
+                    'base' => '/press/%_%',
                     'total' => $query->max_num_pages,
                     'current' => max(1, get_query_var('page')),
                     'format' => '%#%',
@@ -116,7 +112,6 @@
 
 
     </div>
-
 
     <script>
         jQuery(document).ready(function () {

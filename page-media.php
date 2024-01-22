@@ -11,10 +11,13 @@
                     <div class="badge-primary badge shadow my-1">All news</div>
                 </a>
                 <a href="/press">
-                    <div class="badge-primary badge shadow my-1">Press Service</div>
+                    <div class="badge-primary badge shadow my-1">Press service</div>
                 </a>
-                <a href="https://legalizebelarus-org.translate.goog/drugs/?_x_tr_sl=ru&_x_tr_tl=be&_x_tr_hl=be&_x_tr_pto=wapp">
-                    <div class="badge-primary badge shadow my-1">Drugs News</div>
+                                <a href="/media">
+                    <div class="badge-primary badge shadow my-1">Media mentions</div>
+                </a>
+                <a href="/stories">
+                    <div class="badge-primary badge shadow my-1">Stories of the convicted</div>
                 </a>
             </div>
         </div>

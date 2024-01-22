@@ -1,4 +1,4 @@
-<?php /* Template Name: page-medyja */ ?>
+<?php /* Template Name: page-story */ ?>
 <?php get_header(); ?>
 
 
@@ -6,20 +6,20 @@
 
         <div class="row pb-5">
             <div class="col text-center">
-                <p class="display-4 mb-4">Упоминания в медиа</p>
+                <p class="display-4 mb-4">Истории осуждённых</p>
+
                 <a href="/naviny">
                     <div class="badge-primary badge shadow my-1">Все новости</div>
                 </a>
-                <a href="/presa">
+                   <a href="/presa">
                     <div class="badge-primary badge shadow my-1">Пресс-служба</div>
                 </a>
-                   <a href="/story">
-                    <div class="badge-primary badge shadow my-1">Истории осуждённых</div>
+                                   <a href="/medyja">
+                    <div class="badge-primary badge shadow my-1">Упоминания в медиа</div>
                 </a>
                 <a href="/drugs">
                     <div class="badge-primary badge shadow my-1">Новости ПАВ</div>
                 </a>
-
             </div>
         </div>
 
@@ -27,7 +27,7 @@
         $page = (get_query_var('page')) ? get_query_var('page') : 1;
         $query = new WP_Query(array(
                 'posts_per_page' => 10,
-                'category_name' => 'medyja',
+                'category_name' => 'story',
                 'paged' => $page
         ));
         if ($query->have_posts()) : while ($query->have_posts()) : $query->the_post();
@@ -87,13 +87,9 @@
         <?php endif; ?>
 
         <div class="container text-center pt-3">
-
-
             <?php
-
-
             echo paginate_links(array(
-                    'base' => '/medyja/%_%',
+                    'base' => '/presa/%_%',
                     'total' => $query->max_num_pages,
                     'current' => max(1, get_query_var('page')),
                     'format' => '%#%',
@@ -110,13 +106,8 @@
 
             wp_reset_query();
             ?>
-
-
         </div>
-
-
     </div>
-
 
     <script>
         jQuery(document).ready(function () {

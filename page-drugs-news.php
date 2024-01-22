@@ -14,6 +14,12 @@
                 <a href="/presa">
                     <div class="badge-primary badge shadow my-1">Пресс-служба</div>
                 </a>
+                                   <a href="/medyja">
+                    <div class="badge-primary badge shadow my-1">Упоминания в медиа</div>
+                </a>
+                                   <a href="/story">
+                    <div class="badge-primary badge shadow my-1">Истории осуждённых</div>
+                </a>
             </div>
         </div>
 
