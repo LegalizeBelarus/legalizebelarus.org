@@ -12,6 +12,11 @@
                 <a href="/<?php _e('drugs', 'legalizebelarus'); ?>">
                     <div class="badge-primary badge shadow my-1"><?php _e('Drugs News', 'legalizebelarus'); ?></div>
                 </a>
+                <a href="/<?php _e('media', 'legalizebelarus'); ?>">
+                    <div class="badge-primary badge shadow my-1"><?php _e('Media mentions', 'legalizebelarus'); ?></div>
+                </a>
+                <a href="/<?php _e('stories', 'legalizebelarus'); ?>">
+                    <div class="badge-primary badge shadow my-1"><?php _e('Stories of the convicted', 'legalizebelarus'); ?></div>
             </div>
         </div>
 
