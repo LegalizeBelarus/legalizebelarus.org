@@ -93,7 +93,7 @@
 
                                         <div class="align-items-center text-center align-items-center justify-content-center post_thumbnail p-3 d-flex">
 
-                                                <h5 class="text-shadow text-light mb-0 pb-0"><?php the_title(); ?></h5>
+                                            <h5 class="text-shadow text-light mb-0 pb-0"><?php the_title(); ?></h5>
 
                                         </div>
 
@@ -105,6 +105,17 @@
 
                         <?php }
                     } ?>
+                </div>
+
+                <div class="container pt-3 mt-4 text-center">
+                    <a href="https://legalizebelarus.org/story/">
+                        <div class="btn btn-lg btn-danger">Все истории осуждённых (
+                            <?php
+                            $total_news = wp_count_posts('post')->publish;
+                            echo $total_news;
+                            ?>
+                            )</div>
+                    </a>
                 </div>
             </div>
 
