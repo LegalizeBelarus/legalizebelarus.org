@@ -90,14 +90,14 @@ msgstr ""
 "Если не указано иное, текст этого материала лицензирован в соответствии с "
 "международной лицензией Creative Commons Attribution 4.0."
 
-#~ msgid "media"
-#~ msgstr "medyja"
+msgid "media"
+msgstr "medyja"
 
-#~ msgid "Media mentions"
-#~ msgstr "Упоминания в медиа"
+msgid "Media mentions"
+msgstr "Упоминания в медиа"
 
-#~ msgid "stories"
-#~ msgstr "story"
+msgid "stories"
+msgstr "story"
 
 #~ msgid "Stories of the convicted"
 #~ msgstr "Истории осуждённых"
