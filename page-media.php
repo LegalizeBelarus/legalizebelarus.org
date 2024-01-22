@@ -13,9 +13,6 @@
                 <a href="/press">
                     <div class="badge-primary badge shadow my-1">Press service</div>
                 </a>
-                                <a href="/media">
-                    <div class="badge-primary badge shadow my-1">Media mentions</div>
-                </a>
                 <a href="/stories">
                     <div class="badge-primary badge shadow my-1">Stories of the convicted</div>
                 </a>
