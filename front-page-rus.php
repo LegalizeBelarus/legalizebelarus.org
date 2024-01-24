@@ -76,7 +76,7 @@
                     $args = array(
                         'post_type' => 'post',
                         'category_name' => 'story',
-                        'posts_per_page' => 12
+                        'posts_per_page' => 8
                     );
                     $post_query = new WP_Query($args);
                     if ($post_query->have_posts()) {
