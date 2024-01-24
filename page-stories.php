@@ -89,7 +89,7 @@
 
 
             echo paginate_links(array(
-                    'base' => '/press/%_%',
+                    'base' => '/stories/%_%',
                     'total' => $query->max_num_pages,
                     'current' => max(1, get_query_var('page')),
                     'format' => '%#%',

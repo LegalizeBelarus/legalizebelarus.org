@@ -89,7 +89,7 @@
         <div class="container text-center pt-3">
             <?php
             echo paginate_links(array(
-                    'base' => '/presa/%_%',
+                    'base' => '/story/%_%',
                     'total' => $query->max_num_pages,
                     'current' => max(1, get_query_var('page')),
                     'format' => '%#%',
