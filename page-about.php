@@ -214,19 +214,19 @@
                     </a>
                 </div>
 
-                <div class="col-6 col-md-4 col-lg-3 mb-3">
-                    <a target="_blank" class="no-dec text-dark"
-                       href="https://www.facebook.com/profile.php?id=100039854985309">
-                        <div class="card">
-                            <img src="<?php bloginfo( 'template_url' ); ?>/images/team/SiarhiejR.jpg"
-                                 class="card-img-top">
-                            <div class="card-body rad-b">
-                                <h5 class="card-title">Siarzhuk Rashetnikau</h5>
-                                <p class="card-text font-weight-normal">Harm reduction</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
+      <!--            <div class="col-6 col-md-4 col-lg-3 mb-3">-->
+      <!--                <a target="_blank" class="no-dec text-dark"-->
+       <!--                  href="https://www.facebook.com/profile.php?id=100039854985309">-->
+         <!--                 <div class="card">-->
+           <!--                   <img src="<?php bloginfo( 'template_url' ); ?>/images/team/SiarhiejR.jpg"-->
+           <!--                        class="card-img-top">-->
+            <!--                  <div class="card-body rad-b">-->
+             <!--                     <h5 class="card-title">Siarzhuk Rashetnikau</h5>-->
+             <!--                     <p class="card-text font-weight-normal">Harm reduction</p>-->
+             <!--                 </div>-->
+            <!--              </div>-->
+           <!--           </a>-->
+            <!--      </div>-->
 
                 <!--                <div class="col-6 col-md-4 col-lg-3 mb-3">-->
                 <!--                    <a target="_blank" class="no-dec text-dark" href="https://facebook.com/jahor.viniacki">-->
