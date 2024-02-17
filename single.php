@@ -42,6 +42,7 @@
                         </div>
 
                         <div class="col-md-3 pb-4">
+                        <div class="container">
                             <div class="lead"><?php echo get_post_meta( get_the_ID(), 'author', true ) ?></div>
                             <div class="lead mb-2"><?php echo get_the_date( 'j F Y' ); ?></div>
 
@@ -57,7 +58,7 @@
 
                             <?php if ( ! function_exists( 'dynamic_sidebar' ) || ! dynamic_sidebar( "posts-sidebar" ) ) : ?>
                             <?php endif; ?>
-
+                        </div>
 
                         </div>
 
