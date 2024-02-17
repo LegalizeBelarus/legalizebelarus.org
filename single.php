@@ -91,10 +91,13 @@
 
                     <div class="col-md-9">
 
-                        <?php the_post();
-                        the_content(); ?>
+                        <div class="container my-4 text-justify">
+                            <?php the_post();
+                            the_content(); ?>
+                        </div>
 
-                        <?php 
+                        <?php
+
                         $supportTexts = [
                             'be_BY' => [
                                 'header' => '&#128147; Нам патрэбна ваша дапамога',
@@ -109,9 +112,9 @@
                                 'body' => 'Если вам нравится, что делает Legalize Belarus — поддержите нас через <a href="https://www.patreon.com/LegalizeBelarus">Patreon</a> либо <a href="/padtrymajcie/">иным</a> способом. Это безопасно. Средства пойдут на оплату домена и хостинга сайта, проведение мероприятий, рекламу в соцсетях, печать стикеров и листовок, запись и монтаж новых видео и др.',
                             ],
                         ];
-                        
+
                         $locale = get_locale();
-                        
+
                         if (isset($supportTexts[$locale])) {
                             $template = '<div id="support-us-block"><div id="support-us-block-header">%s</div><div id="support-us-block-body">%s</div></div>';
                             echo sprintf(
@@ -125,7 +128,7 @@
 
                     <div class="col-md-3">
 
-                        <div class="mb-4 mt-4 mt-md-0">
+                        <div class="container mb-4 mt-4 mt-md-0">
                             <?php
                             $license = get_post_meta( get_the_ID(), 'custom_license', true );
 
