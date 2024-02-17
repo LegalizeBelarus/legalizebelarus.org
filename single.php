@@ -91,7 +91,7 @@
 
                     <div class="col-md-9">
 
-                        <div class="container my-4 text-justify">
+                        <div class="container my-4">
                             <?php the_post();
                             the_content(); ?>
                         </div>
