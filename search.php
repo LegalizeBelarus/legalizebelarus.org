@@ -69,7 +69,7 @@
                                     } ?></p>
                             </div>
 
-                            <?php if (getPostViews(get_the_ID()) != 0) : ?>
+                            <?php if getPostViews(get_the_ID()) == 0 : ?>
                             <div class="d-flex justify-content-end mt-auto pb-3 w-100">
                                 <div class="d-inline-flex px-1 badge-primary badge" style="opacity:0">
                                     <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-eye-fill"
