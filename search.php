@@ -82,7 +82,11 @@
                                     <span>&nbsp<?php echo getPostViews(get_the_ID()); ?></span>
                                 </div>
                             </div>
-                            <?php endif; ?>
+
+                            <?php else : ""?>
+
+
+
                         </div>
                     </div>
                 </div>
