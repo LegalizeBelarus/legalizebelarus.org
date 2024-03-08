@@ -70,20 +70,16 @@
                             </div>
 
                             <?php if getPostViews(get_the_ID()) == 0 : ?>
-                            <div class="d-flex justify-content-end mt-auto pb-3 w-100">
-                                <div class="d-inline-flex px-1 badge-primary badge" style="opacity:0">
-                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-eye-fill"
-                                         fill="white"
-                                         xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
-                                        <path fill-rule="evenodd"
-                                              d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
-                                    </svg>
-                                    <span>&nbsp<?php echo getPostViews(get_the_ID()); ?></span>
+                                <div class="d-flex justify-content-end mt-auto pb-3 w-100">
+                                    <div class="d-inline-flex px-1 badge-primary badge" style="opacity:0">
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-eye-fill" fill="white" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+                                            <path fill-rule="evenodd" d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
+                                        </svg>
+                                        <span>&nbsp;<?php echo getPostViews(get_the_ID()); ?></span>
+                                    </div>
                                 </div>
-                            </div>
-
-                            <?php else : ""?>
+                            <?php endif; ?>
 
 
 
