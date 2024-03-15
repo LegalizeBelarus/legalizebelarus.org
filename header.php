@@ -18,13 +18,15 @@
         gtag('config', 'G-D0ZQT73MYH');
     </script>
 
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8198266697570398"
+     crossorigin="anonymous"></script>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="yandex-verification" content="e6da0b755ac20619"/>
 
     <title><?php wp_title('&laquo;', true, 'right'); ?><?php bloginfo('name'); ?></title>
-
-
+    <link rel="icon" href="<?php bloginfo('template_url'); ?>/wp-content/themes/legalizebelarus/images/favicon.ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width">
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>"/>
 
