@@ -383,3 +383,7 @@ strong {
 #support-us-block-body {
     margin-top: 10px;
 }
+
+.tnp-subscription-posts {
+    box-shadow: black 0 0 10px !important;
+}
