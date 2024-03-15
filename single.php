@@ -144,7 +144,7 @@
                             ],
                             'ru_RU' => [
                                 'header' => '&#128147; Нам нужна ваша поддержка',
-                                'body' => 'Если вам нравится, что делает Legalize Belarus — поддержите нас через <a href="https://www.patreon.com/LegalizeBelarus">Patreon</a> либо <a href="/padtrymajcie/">иным</a> способом. Это безопасно. Средства пойдут на оплату домена и хостинга сайта, проведение мероприятий, рекламу в соцсетях, печать стикеров и листовок, запись и монтаж новых видео и др.',
+                                'body' => 'Если вам нравится, что делает Legalize Belarus — поддержите нас через <a href="https://www.patreon.com/LegalizeBelarus">Patreon</a> либо <a href="/padtrymajcie/">иным</a> способом.',
                             ],
                         ];
 
