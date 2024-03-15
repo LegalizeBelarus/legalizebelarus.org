@@ -19,7 +19,7 @@
                             } else {
                                 the_excerpt();
                             } ?>
-                        </div>
+                        </h2>
                     </div>
                 </div>
             </div>
