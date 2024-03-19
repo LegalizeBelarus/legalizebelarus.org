@@ -385,7 +385,7 @@ strong {
 }
 
 .tnp-subscription-posts {
-    margin-top: 35px;
+    margin-top: 35px !important;
     box-shadow: yellow 0 0 10px !important;
     border-radius: 1rem;
 }
