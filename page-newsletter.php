@@ -37,7 +37,7 @@
                                                                                  src="<?php bloginfo( 'template_url' ); ?>/images/links/ok.png"></a>
                 </div>
 
-                <p class="lead mt-4">На связи 😉</p>
+                <p class="lead pt-4">На связи 😉</p>
             </div>
 </div>
 
