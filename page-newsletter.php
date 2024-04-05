@@ -4,7 +4,7 @@
 
 
 <div class="container bg-light px-0 pt-4 mb-0 cont">
-    <div class="jumbotron d-flex flex-column jumbotron-fluid justify-content-center align-items-center px-3 text-center"
+    <div class="jumbotron d-flex pb-0 mb-0 flex-column jumbotron-fluid justify-content-center align-items-center px-3 text-center"
          style="background-image: linear-gradient(135deg, rgba(229, 27, 77, 0.5), rgba(62, 2, 166, 0.5)),
                  url(<?php bloginfo( 'template_url' ); ?>/images/newsletter.jpg);">
         <p class="display-4 text-light text-shadow mt-3">Ты в клубе! Поздравляем 🎉</p>
