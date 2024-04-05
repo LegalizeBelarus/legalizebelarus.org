@@ -16,7 +16,7 @@
 <div class="container cont bg-light pb-5 px-md-5">
 
             <div class="container text-center">
-                <p class="lead mt-4">Скоро ты получишь сообщение о добавлении в закрытую Google-группу. Чтобы получать более
+                <p class="lead pt-4">Скоро ты получишь сообщение о добавлении в закрытую Google-группу. Чтобы получать более
                     частые обновления от нас, подписывайся на нас в социальных сетях. </p>
 
                 <div class="container text-center py-3">
