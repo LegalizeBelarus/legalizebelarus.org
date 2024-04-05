@@ -17,8 +17,8 @@
 
     <main role="main">
         <section>
-            <div class="container pb-5 text-center">
-                <p class="lead my-4">Скоро ты получишь сообщение о добавлении в закрытую Google-группу. Чтобы получать более
+            <div class="container text-center">
+                <p class="lead mt-4">Скоро ты получишь сообщение о добавлении в закрытую Google-группу. Чтобы получать более
                     частые обновления от нас, подписывайся на нас в социальных сетях. </p>
 
                 <div class="container text-center py-3">
