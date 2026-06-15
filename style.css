@@ -243,6 +243,12 @@ div.fb-comments iframe {
     transition: transform 0.2s;
 }
 
+/* wp-smushit lazy loader adds .lazyloaded which sets transition:opacity 0.4s,
+   overriding our transform transition. Restore both so scale-on-hover works. */
+.img_holder.lazyloaded {
+    transition: opacity 0.4s, transform 0.2s;
+}
+
 .post-container {
     transition: all 0.2s;
     border-radius: .25rem;
