@@ -212,12 +212,11 @@ div.fb-comments iframe {
     padding-bottom: 100%;
     overflow: hidden;
     border-radius: 100%;
-    transition: all 0.2s;
+    transition: transform 0.2s;
 }
 
 .post_wrapper_story:hover {
-    scale: 1.02;
-    transition: all 0.2s;
+    transform: scale(1.02);
 }
 
 .news_wrapper {
@@ -232,7 +231,9 @@ div.fb-comments iframe {
     overflow: hidden;
 }
 
-
+/* img_holder: GPU-composited layer for smooth scale animation.
+   wp-smushit adds .lazyloaded { transition: opacity 400ms } inline —
+   we override with higher specificity to keep transform transition too. */
 .img_holder {
     width: 100%;
     height: 100%;
@@ -240,13 +241,19 @@ div.fb-comments iframe {
     top: 0px;
     background-position: center;
     background-size: cover;
-    transition: transform 0.2s;
+    transition: transform 0.2s ease-out;
+    will-change: transform;
 }
 
-/* wp-smushit lazy loader adds .lazyloaded which sets transition:opacity 0.4s,
-   overriding our transform transition. Restore both so scale-on-hover works. */
 .img_holder.lazyloaded {
-    transition: opacity 0.4s, transform 0.2s;
+    transition: opacity 0.4s, transform 0.2s ease-out;
+}
+
+/* Pure-CSS scale-on-hover — replaces the jQuery mouseenter/mouseleave
+   scripts. Works before and after lazyload; no JS timing issues. */
+.post_wrapper:hover .img_holder,
+.jumbo_wrapper:hover .img_holder {
+    transform: scale(1.05);
 }
 
 .post-container {

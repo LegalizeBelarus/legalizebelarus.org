@@ -372,22 +372,12 @@
             <script>
                 jQuery(document).ready(function () {
 
-                    jQuery('.post_wrapper, .jumbo_wrapper').mouseover(function () {
-
-                        jQuery(this).find('.img_holder').css('transform', 'scale(1.05)');
-                    });
-
-                    jQuery('.post_wrapper, .jumbo_wrapper').mouseout(function () {
-
-                        jQuery(this).find('.img_holder').css('transform', 'scale(1)');
-                    });
-
-                    jQuery('.flex-column').mouseover(function () {
+                    jQuery('.flex-column').mouseenter(function () {
 
                         jQuery(this).find('.badge-primary').css('opacity', '1');
                     });
 
-                    jQuery('.flex-column').mouseout(function () {
+                    jQuery('.flex-column').mouseleave(function () {
 
                         jQuery(this).find('.badge-primary').css('opacity', '0');
                     });

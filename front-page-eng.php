@@ -210,20 +210,6 @@
 <!--                </p>-->
 <!--            </div>-->
 
-            <script>
-                jQuery(document).ready(function () {
-
-                    jQuery('.post_wrapper, .jumbo_wrapper').mouseover(function () {
-
-                        jQuery(this).find('.img_holder').css('transform', 'scale(1.05)');
-                    });
-
-                    jQuery('.post_wrapper, .jumbo_wrapper').mouseout(function () {
-
-                        jQuery(this).find('.img_holder').css('transform', 'scale(1)');
-                    });
-                });
-            </script>
         </section>
     </main>
 </div>

@@ -117,12 +117,12 @@
     <script>
         jQuery(document).ready(function () {
 
-            jQuery('.flex-column').mouseover(function () {
+            jQuery('.flex-column').mouseenter(function () {
 
                 jQuery(this).find('.badge-primary').css('opacity', '1');
             });
 
-            jQuery('.flex-column').mouseout(function () {
+            jQuery('.flex-column').mouseleave(function () {
 
                 jQuery(this).find('.badge-primary').css('opacity', '0');
             });
