@@ -1,0 +1,49 @@
+name: Deploy theme to s1
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch: {} # allow manual runs from the Actions tab
+
+# Never run two deploys at once; let an in-flight deploy finish.
+concurrency:
+  group: deploy-theme
+  cancel-in-progress: false
+
+env:
+  THEME_DIR: /root/data/legalizebelarus.org/wp-content/themes/legalizebelarus
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Configure SSH (lb-ci key)
+        run: |
+          mkdir -p ~/.ssh
+          install -m 600 /dev/null ~/.ssh/id_ed25519
+          echo "${{ secrets.DEPLOY_SSH_KEY }}" > ~/.ssh/id_ed25519
+          ssh-keyscan -H "${{ secrets.DEPLOY_HOST }}" >> ~/.ssh/known_hosts 2>/dev/null
+
+      - name: Sync theme
+        env:
+          HOST: ${{ secrets.DEPLOY_HOST }}
+        run: |
+          # Additive sync (no --delete): never removes prod-only files such as
+          # the leftover cPanel .htaccess artifacts or plugin-managed files.
+          rsync -az --itemize-changes \
+            --exclude='.git' \
+            --exclude='.github' \
+            --exclude='.idea' \
+            --exclude='.env' \
+            ./ "root@${HOST}:${THEME_DIR}/"
+
+      - name: Fix ownership and refresh ACLs
+        env:
+          HOST: ${{ secrets.DEPLOY_HOST }}
+        run: |
+          ssh "root@${HOST}" "
+            chown -R nginx:nginx '${THEME_DIR}' &&
+            systemctl restart legalizebelarus-org-site-perms
+          "
